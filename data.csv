@@ -1,10 +1,598 @@
-Group,Title,Image,Description,Address,Latitude,Longitude,Found Address,Match Quality,Source
-a,Trinity College,https://www.edx.org/sites/default/files/trinity1.jpg,"Not in the link <a href=""http://www.trincoll.edu"" target=""_blank"">view website</a> more not in the link","300 Summit St, Hartford CT 06106",41.745167,-72.69263,"300 SUMMIT ST, HARTFORD, CT, 06106",Exact,US Census
-a,Wesleyan University,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""http://wesleyan.edu"" target=""_blank"">view website</a>",45 Wyllys Ave Middletown CT 06459,41.55709,-72.65691,"45 WYLLYS AVE, MIDDLETOWN, CT, 06459",Exact,US Census
-a,Connecticut College,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""http://conncoll.edu"" target=""_blank"">view website</a>","270 Mohegan Ave, New London CT",41.381435,-72.10469,"270 MOHEGAN AVE PKWY, NEW LONDON, CT, 06320",Match,US Census
-a,Yale University,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""http://yale.edu"" target=""_blank"">view website</a>",149 Elm St New Haven CT,41.309155,-72.92635,"149 ELM ST, NEW HAVEN, CT, 06511",Match,US Census
-a,University of Connecticut-Storrs,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""http://uconn.edu"" target=""_blank"">view website</a>","369 Fairfield Way, Storrs CT 06269",41.80665,-72.25352,"369 FAIRFIELD RD, STORRS, CT, 06269",Match,US Census
-a,Capital Community College,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""http://capitalcc.edu"" target=""_blank"">view website</a>",950 Main St Hartford CT,41.69861,-72.72414,"950 MAIN ST, HARTFORD, CT, 06111",Match,US Census
-b,Dinosaur State Park,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""www.dinosaurstatepark.org/"" target=""_blank"">view website</a>",400 West St Rock Hill CT 06067,41.652546,-72.65743,"400 WEST ST, ROCKY HILL, CT, 06067",Match,US Census
-b,Hammonasset State Park,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,"<a href=""www.ct.gov/deep/hammonasset"" target=""_blank"">view website</a>","1288 Boston Post Road, Madison CT 06443",41.273247,-72.56934,"1288 BOSTON POST RD, MADISON, CT, 06443",Match,US Census
-c,State Capitol Building,https://upload.wikimedia.org/wikipedia/commons/4/41/You_are_here_-_T-shirt.jpg,State government office,"210 Capitol Ave, Hartford CT 06106",41.762848,-72.68245,"210 CAPITOL AVE, HARTFORD, CT, 06106",Exact,US Census
+charger_count,city,city_distance,Latitude,Longitude,description,geo_state,geo_state.country,geo_state.name,geo_state.name_en,golive,id,location,Title,road,startbuild,state,charger
+,Salamanca,56,40.769662,-6.286721,now building,,Spain,Salamanca,Salamanca Province,,358,SRID=4326;POINT (-6.286721 40.769662),Martin de Yeltes,"A62, E80",2020-08-31T11:15:03.806920Z,0,IONITY High Power Charging
+,Bordeaux,38,45.188934,-0.492422,now building,,France,Gironde,Gironde,,357,SRID=4326;POINT (-0.492422 45.188934),Saugon Ouest,"E5, E70",2020-08-31T09:15:04.629592Z,0,IONITY High Power Charging
+,,,44.870544,3.253033,now building,,France,Lozère,Lozère,,356,SRID=4326;POINT (3.253033 44.870544),La Garde,"A75, E11",2020-08-31T09:15:02.853156Z,0,IONITY High Power Charging
+,Uppsala,3,59.88546,17.66622,now building,,Sweden,Uppsala,Uppsala County,,355,SRID=4326;POINT (17.66622 59.88546),Uppsala,E4,2020-08-24T09:30:09.242850Z,0,IONITY High Power Charging
+,,,62.11837,10.61407,now buiding,,Norway,Hedmark,Hedmark,,354,SRID=4326;POINT (10.61407 62.11837),Alvdal,,2020-08-24T08:45:07.237265Z,0,IONITY High Power Charging
+,Le Mans,59,48.09518,-0.693474,now building,,France,Mayenne,Mayenne,,353,SRID=4326;POINT (-0.693474 48.09518),Mayenne,"A81, E50",2020-08-18T16:30:12.108185Z,0,IONITY High Power Charging
+4,Le Mans,41,48.126677,0.623299,"Number of CCS Chargers: 4
+Station open 24/7",,France,Sarthe,Sarthe,2020-08-19T19:30:12.320984Z,352,SRID=4326;POINT (0.623299 48.126677),La Ferté Bernard,"A11, E50",2020-08-18T12:15:12.900579Z,1,IONITY High Power Charging
+,Budapest,13,47.380371,19.055785,now building,,Hungary,Pest,Pest County,,351,SRID=4326;POINT (19.055785 47.380371),Szigetszentmiklós,"E60, E71, E73, E75, M0, M1, M6",2020-08-18T09:15:05.429295Z,0,IONITY High Power Charging
+,Regensburg,56,49.532356,12.13491,now building,,Germany,Bayern,Bavaria,,350,SRID=4326;POINT (12.13491 49.532356),Wernberg-Köblitz,"A6, A93, E50",2020-08-17T07:15:11.307744Z,0,IONITY High Power Charging
+,Brugge,42,51.06441,2.673611,now building,,Belgium,West Flanders,West Flanders,,349,SRID=4326;POINT (2.673611 51.06441),Veurne,"A16, E40",2020-08-06T07:30:08.479314Z,0,IONITY High Power Charging
+,Braunschweig,43,51.926279,10.143238,now building,,Germany,Niedersachsen,Lower Saxony,,348,SRID=4326;POINT (10.143238 51.926279),Harz Ost,"A7, E45",2020-08-03T07:30:10.081510Z,0,IONITY High Power Charging
+,Berlin,24,52.31562,13.494702,now building,,Germany,Brandenburg,Brandenburg,,347,SRID=4326;POINT (13.494702 52.31562),Am Fichtenplan Süd,"A10, A12, A13, E30, E36, E55",2020-08-03T07:30:04.537329Z,0,IONITY High Power Charging
+,Braunschweig,43,51.928028,10.14173,now building,,Germany,Niedersachsen,Lower Saxony,,346,SRID=4326;POINT (10.14173 51.928028),Harz West,"A7, E45",2020-08-03T07:30:02.415848Z,0,IONITY High Power Charging
+,Jihlava,6,49.455104,15.593272,now building,,Czech Republic,Vysočina,Vysočina Region,,345,SRID=4326;POINT (15.593272 49.455104),Pávov (dir. Prague),"38, D1, E50, E59, E65",2020-08-03T05:45:07.318135Z,0,IONITY High Power Charging
+,Jihlava,6,49.455104,15.593272,now building,,Czech Republic,Vysočina,Vysočina Region,,344,SRID=4326;POINT (15.593272 49.455104),Pavov (dir. Prague),"38, D1, E50, E59, E65",2020-08-03T05:30:07.400560Z,0,IONITY High Power Charging
+,Jihlava,5,49.453814,15.59148,now building,,Czech Republic,Vysočina,Vysočina Region,,343,SRID=4326;POINT (15.59148 49.453814),Pávov (dir. Brno),"38, D1, E50, E59, E65",2020-08-03T05:30:03.286018Z,0,IONITY High Power Charging
+,Ulm,6,48.38189,10.086035,now building,,Germany,Bayern,Bavaria,,342,SRID=4326;POINT (10.086035 48.38189),Holzheim,"A7, A8, E43, E52",2020-07-30T17:15:05.377163Z,0,IONITY High Power Charging
+,Málaga,19,36.8982555,-4.4298849,now building,,Spain,Málaga,Málaga Province,,341,SRID=4326;POINT (-4.4298849 36.8982555),Casabermeja,"A45, A92M",2020-07-29T12:30:10.984217Z,0,IONITY High Power Charging
+,Metz,10,49.215116,6.171845,now building,,France,Moselle,Moselle,,340,SRID=4326;POINT (6.171845 49.215116),Hauconcourt,"A30, A31, A4, E21, E23, E25, E50",2020-07-27T13:00:10.006054Z,0,IONITY High Power Charging
+,Nîmes,33,43.999633,4.700191,now building,,France,Gard,Gard,,339,SRID=4326;POINT (4.700191 43.999633),Tavel Sud,E15,2020-07-20T11:00:10.974071Z,0,IONITY HIGH POWER CHARGING
+,Orléans,58,47.852405,2.684731,now building,,France,Loiret,Loiret,,338,SRID=4326;POINT (2.684731 47.852405),Jardin des arbres,A77,2020-07-20T11:00:02.130558Z,0,IONITY HIGH POWER CHARGING
+,Montpellier,69,43.985279,3.183078,now building,,France,Aveyron,Aveyron,,337,SRID=4326;POINT (3.183078 43.985279),Larzac,"A75, E11",2020-07-16T06:30:08.925110Z,0,IONITY High Power Charging
+,Agen,3,44.171306,0.60966,now building,,France,Lot-et-Garonne,Lot-et-Garonne,,336,SRID=4326;POINT (0.60966 44.171306),Agen,"A62, E72, N21",2020-07-16T06:30:04.549923Z,0,IONITY High Power Charging
+,Annecy,29,45.673865,5.929976,now building,,France,Savoie,Savoie,,335,SRID=4326;POINT (5.929976 45.673865),Mouxy,"A410, A43, D1006, E70, E712",2020-07-03T09:30:12.994473Z,0,IONITY High Power Charging
+,Catania,53,37.57169,14.4797,now building,,Italy,Enna,Province of Enna,,334,SRID=4326;POINT (14.4797 37.57169),Agira,"A19, E932",2020-06-30T17:30:07.375953Z,0,IONITY High Power Charging
+,La Rochelle,45,46.573538,-1.118014,now building,,France,Vendée,Vendée,,333,SRID=4326;POINT (-1.118014 46.573538),Vendée,"A83, D948, E3, E601, E692",2020-06-29T15:00:12.453360Z,0,IONITY High Power Charging
+4,Nîmes,34,44.004071,4.703626,"Number of CCS Chargers: 4
+Station open 24/7",,France,Gard,Gard,2020-09-03T15:15:10.928744Z,332,SRID=4326;POINT (4.703626 44.004071),Tavel Nord,E15,2020-06-29T08:45:09.181651Z,1,IONITY High Power Charging
+,Lyon,34,45.611787,5.212795,now building,,France,Isère,Isère,,331,SRID=4326;POINT (5.212795 45.611787),l'Isle-d'Abeau,E70,2020-06-22T10:30:08.456372Z,0,IONITY High Power Charging
+,Glasgow,4,55.837232,-4.242494,now building,,United Kingdom,Glasgow,Glasgow,,330,SRID=4326;POINT (-4.242494 55.837232),Polmadie,"A1, A5, A80, E05, E15, M77",2020-06-22T09:15:10.548684Z,0,IONITY High Power Charging
+4,Kassel,52,50.833837,9.570775,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Hessen,Hesse,2020-08-06T15:15:09.876763Z,329,SRID=4326;POINT (9.570774999999999 50.833837),Kirchheim (Tal),"A5, A7, E40, E45",2020-06-22T09:15:08.994458Z,1,IONITY High Power Charging
+,Madrid,8,40.458398,-3.616092,now building,,Spain,Madrid,Community of Madrid,,328,SRID=4326;POINT (-3.616092 40.458398),Campo de las Naciones,"A1, A2, E5, E90, M40",2020-06-19T09:00:03.753551Z,0,IONITY High Power Charging
+,Huelva,14,37.331672,-6.802211,Now building,,Spain,Huelva,Huelva Province,,327,SRID=4326;POINT (-6.802211 37.331672),Trigueros Sur,"A49, E1, N435",2020-06-18T12:45:10.784138Z,0,IONITY High Power Charging
+2,Rotterdam,13,51.834832,4.618082,"Number of CCS Chargers: 2
+Station open 24/7",,Netherlands,Zuid-Holland,South Holland,2020-06-17T17:15:11.633806Z,326,SRID=4326;POINT (4.618082 51.834832),Sandelingen West,"A15, A16, A29, E19, E31",2020-06-17T17:15:11.608552Z,1,IONITY High Power Charging
+,Tarbes,57,43.418629,-0.584799,now building,,France,Pyrénées-Atlantiques,Pyrénées-Atlantiques,,325,SRID=4326;POINT (-0.584799 43.418629),Lacq Audéjos Nord,"A64, E80",2020-06-15T14:45:07.698357Z,0,IONITY High Power Charging
+,Tarbes,59,43.42185,-0.598593,now building,,France,Pyrénées-Atlantiques,Pyrénées-Atlantiques,,324,SRID=4326;POINT (-0.598593 43.42185),Lacq Audéjos Sud,"A64, E80",2020-06-15T14:45:07.322059Z,0,IONITY High Power Charging
+,Regensburg,54,48.69253,12.672979,now building,,Germany,Bayern,Bavaria,,323,SRID=4326;POINT (12.672979 48.69253),Pilsting,"A92, E53",2020-06-15T12:15:08.016402Z,0,IONITY High Power Charging
+,Bourges,36,46.751937,2.417075,now building,,France,Cher,Cher,,322,SRID=4326;POINT (2.417075 46.751937),Centre de la France,", A71, E11",2020-06-10T19:45:09.916230Z,0,IONITY High Power Charging
+,Bourges,36,46.751623,2.417606,now building,,France,Cher,Cher,,321,SRID=4326;POINT (2.417606 46.751623),Centre de la France Sud,", A71, E11",2020-06-10T19:45:09.078389Z,0,IONITY High Power Charging
+4,Trondheim,11,63.324643,10.306073,"Number of CCS Chargers: 4
+Station open 24/7",,Norway,Sør-Trøndelag,Sør-Trøndelag,2020-07-14T14:45:02.738473Z,320,SRID=4326;POINT (10.306073 63.324643),Klett,"E39, E6",2020-06-08T12:00:02.302329Z,1,IONITY HIGH POWER CHARGING
+4,Liège,9,50.655355,5.710963,"Number of CCS Chargers: 4
+Station open 24/7",,Belgium,Liege,Liège,2020-06-05T13:30:03.490396Z,319,SRID=4326;POINT (5.710963 50.655355),Tignée,"A2, A26, A3, E25, E40",2020-06-05T13:30:03.464906Z,1,IONITY HIGH POWER CHARGING
+,Potenza,1,40.63193,15.81358,now building,,Italy,Potenza,Province of Potenza,,318,SRID=4326;POINT (15.81358 40.63193),Potenza,"E847, S169, S407",2020-06-03T13:45:05.189686Z,0,IONITY High Power Charging
+4,Le Mans,41,48.125475,0.622302,"Number of CCS Chargers: 4
+Station open 24/7",,France,Sarthe,Sarthe,2020-08-19T11:45:07.699572Z,317,SRID=4326;POINT (0.622302 48.125475),Villaines la Gonais,"A11, E50",2020-06-02T15:30:05.853348Z,1,IONITY High Power Charging
+,Le Mans,41,48.126596,0.62333,now building,,France,Sarthe,Sarthe,,316,SRID=4326;POINT (0.6233300000000001 48.126596),La Ferté-Bernard,"A11, E50",2020-06-02T15:15:10.213203Z,0,IONITY High Power Charging
+4,Nîmes,46,43.922931,4.91204,"Number of CCS Chargers: 4
+Station open 24/7",,France,Vaucluse,Vaucluse,2020-08-05T16:00:03.435237Z,315,SRID=4326;POINT (4.91204 43.922931),Morières,"E15, E714",2020-06-02T15:15:03.546534Z,1,IONITY High Power Charging
+,Prague,14,49.984404,14.602629,now building,,Czech Republic,Středočeský,Central Bohemian Region,,314,SRID=4326;POINT (14.602629 49.984404),Nupaky,"3, E50, E55, E65",2020-06-01T19:30:05.111511Z,0,IONITY High Power Charging
+4,Dijon,12,47.223166,5.010984,"Number of CCS Chargers: 4
+Station open 24/7",,France,Côte-d'Or,Côte-d'Or,2020-07-15T13:15:12.025962Z,313,SRID=4326;POINT (5.010984 47.223166),Gevrey-Chambertin Est,"A40, E21, E62",2020-05-15T13:00:09.841135Z,1,IONITY High Power Charging
+4,Karlskrona,21,56.20688,15.64293,"Number of CCS Chargers: 4
+Station open 24/7",,Sweden,Blekinge,Blekinge County,2020-08-19T11:45:06.900313Z,312,SRID=4326;POINT (15.64293 56.20688),Karlskrona,"E22, E77, ferry",2020-05-13T11:00:05.014933Z,1,IONITY High Power Charging
+4,Lillehammer,12,61.24266,10.4335,"Number of CCS Chargers: 4
+Station open 24/7",,Norway,Oppland,Oppland,2020-07-28T11:00:11.076873Z,311,SRID=4326;POINT (10.4335 61.24266),Øyer,E6,2020-05-11T12:00:09.273312Z,1,IONITY High Power Charging
+,Ferrara,41,45.2374,11.76287,now building,,Italy,Padova,Province of Padua,,310,SRID=4326;POINT (11.76287 45.2374),Monselice,"A13, A31??, S434",2020-05-05T18:15:03.891098Z,0,IONITY High Power Charging
+,Pisa,27,43.92911,10.22261,now building,,Italy,Lucca,Province of Lucca,,309,SRID=4326;POINT (10.22261 43.92911),Versilia Ovest,"A11, A7, E62, E76",2020-04-30T12:15:03.797655Z,0,IONITY High Power Charging
+4,Trento,1,46.08704,11.1111,"Number of CCS Chargers: 4
+Station open 24/7",,Italy,Trento,Trentino,2020-08-12T18:00:02.237065Z,308,SRID=4326;POINT (11.1111 46.08704),Trento,"A22, E45, S47",2020-04-28T14:00:01.753309Z,1,IONITY High Power Charging
+,Jönköping,30,58.00147,14.45086,now building,,Sweden,Jönköping,Jönköping County,,307,SRID=4326;POINT (14.45086 58.00147),Gränna,"E4, E63",2020-04-22T13:15:10.326437Z,0,IONITY High Power Charging
+6,London,29,51.305255,-0.40673,"Number of CCS Chargers: 6
+Station open 24/7",,United Kingdom,Surrey,Surrey,2020-08-18T16:45:10.860150Z,306,SRID=4326;POINT (-0.40673 51.305255),Cobham,"A3, M25",2020-04-20T09:00:07.728682Z,1,IONITY HIGH POWER CHARGING
+3,Groningen,20,53.161647,6.292686,"Number of CCS Chargers: 3
+Station open 24/7",,Netherlands,Groningen,Groningen,2020-05-29T11:45:06.184497Z,305,SRID=4326;POINT (6.292686 53.161647),Mienscheer,"A7, E22",2020-04-07T09:30:05.021693Z,1,IONITY High Power Charging
+4,Augsburg,6,48.411614,10.914898,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2020-06-24T13:30:05.779787Z,304,SRID=4326;POINT (10.914898 48.411614),Augsburg Ost,"A8, B17, E52",2020-04-01T12:30:04.899472Z,1,IONITY High Power Charging
+,Panevežys,7,55.67309,24.33591,now building,,Lithuania,Panevezio,Panevėžys County,,303,SRID=4326;POINT (24.33591 55.67309),Aplinkkelis,"A2, A7, A8, A9, E272, E67",2020-03-26T07:45:10.122858Z,0,IONITY HIGH POWER CHARGING
+4,Lillehammer,61,60.82244,9.55347,"Number of CCS Chargers: 4
+Station open 24/7",,Norway,Oppland,Oppland,2020-07-16T16:45:05.885515Z,299,SRID=4326;POINT (9.553470000000001 60.82244),Bagn,E16,2020-03-24T08:00:03.813663Z,1,IONITY HIGH POWER CHARGING
+4,Mariestad,2,58.68492,13.84544,"Number of CCS Chargers: 4
+Station open 24/7",,Sweden,Västra Götaland,Västra Götaland County,2020-05-25T07:45:10.988815Z,298,SRID=4326;POINT (13.84544 58.68492),Mariestad,E20,2020-03-16T17:00:09.698632Z,1,IONITY High Power Charging
+4,Gießen,27,50.688524,8.295916,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Hessen,Hesse,2020-05-07T13:00:06.930109Z,297,SRID=4326;POINT (8.295916 50.688524),Dollenberg Ost,"A45, E41",2020-03-16T11:15:07.172246Z,1,IONITY High Power Charging
+,Ulm,22,48.219137,10.127765,now building,,Germany,Bayern,Bavaria,,296,SRID=4326;POINT (10.127765 48.219137),Illertissen,"A7, E43",2020-03-16T11:15:04.176874Z,0,IONITY High Power Charging
+4,Cambridge,11,52.26907,-0.00901,"Number of CCS Chargers: 4
+Station open 24/7",,United Kingdom,Cambridgeshire,Cambridgeshire,2020-06-17T15:30:09.673929Z,295,SRID=4326;POINT (-0.009010000000000001 52.26907),Cambridge,"A14, A428",2020-03-10T11:15:07.610588Z,1,IONITY High Power Charging
+2,Kaunas,14,54.81854,23.85809,"Number of CCS Chargers: 2
+Station open 24/7",,Lithuania,Kauno,Kaunas County,2020-09-03T07:30:03.746174Z,294,SRID=4326;POINT (23.85809 54.81854),Garliava,"A5, E67",2020-03-06T08:15:02.158210Z,1,IONITY High Power Charging
+,Sovetsk,64,55.48423,22.58733,now building,,Lithuania,Taurages,Tauragė County,,293,SRID=4326;POINT (22.58733 55.48423),Kryžkalnis,"A1, A12, E77, E85",2020-03-06T08:00:01.514790Z,0,IONITY High Power Charging
+4,Sion,25,46.127822,7.059829,"Number of CCS Chargers: 4
+Station open 24/7",,Switzerland,Valais,Canton of Valais,2020-07-03T14:45:02.272485Z,292,SRID=4326;POINT (7.059829 46.127822),Martigny,"21, A9, E27, E62",2020-02-27T10:00:02.077539Z,1,IONITY HIGH POWER CHARGING
+,Liège,9,50.655355,5.710963,now building,,Belgium,Liege,Liège,,291,SRID=4326;POINT (5.710963 50.655355),Tignee,"A2, A26, A3, E25, E40",2020-02-27T08:45:03.608354Z,0,IONITY HIGH POWER CHARGING
+4,Hamar,26,60.88007,11.55093,"Number of CCS Chargers: 4
+Station open 24/7",,Norway,Hedmark,Hedmark,2020-04-03T15:15:09.621058Z,290,SRID=4326;POINT (11.55093 60.88007),Elverum,,2020-02-17T10:45:09.002031Z,1,IONITY HIGH POWER CHARGING
+4,Perth,2,56.419402,-3.463082,"Number of CCS Chargers: 4
+Station open 24/7",,United Kingdom,Perthshire and Kinross,Perth and Kinross,2020-06-30T16:45:13.344220Z,289,SRID=4326;POINT (-3.463082 56.419402),Perth,"A9, E15, M9, M90",2020-01-30T12:00:10.042322Z,1,IONITY High Power Charging
+4,Milan,16,45.33552,9.10753,"Number of CCS Chargers: 4
+Station open 24/7",,Italy,Milano,Province of Milan,2020-07-23T14:30:05.949769Z,288,SRID=4326;POINT (9.107530000000001 45.33552),Binasco,"A7, E62",2020-01-27T09:45:04.577198Z,1,IONITY High Power Charging
+4,Ravenna,22,44.24289,12.08182,"Number of CCS Chargers: 4
+Station open 24/7",,Italy,Forlì-Cesena,Province of Forlì-Cesena,2020-07-02T17:15:01.468328Z,287,SRID=4326;POINT (12.08182 44.24289),Forli,"A14, E55, E78, S67",2020-01-27T09:45:01.092327Z,1,IONITY High Power Charging
+2,Bratislava,20,48.240666,17.360754,"Number of CCS Chargers: 2
+Station open 24/7",,Slovakia,Bratislavský,Bratislava Region,2020-06-08T13:30:02.927627Z,286,SRID=4326;POINT (17.360754 48.240666),Senec,E75,2020-01-20T07:00:02.511105Z,1,IONITY High Power Charging
+4,Gießen,17,50.622096,8.897196,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Hessen,Hesse,2020-05-20T15:30:02.542718Z,285,SRID=4326;POINT (8.897195999999999 50.622096),Reinhardshain Süd,"A480, A5, E40, E451",2020-01-13T21:45:02.094135Z,1,IONITY High Power Charging
+,Linares,84,38.824574,-3.396857,now building,,Spain,Ciudad Real,Ciudad Real Province,,284,SRID=4326;POINT (-3.396857 38.824574),El Hidalgo,"A4, CM412, E5",2019-12-12T13:15:09.922482Z,0,IONITY High Power Charging
+4,Genoa,67,44.08777,8.20626,"Number of CCS Chargers: 4
+Station open 24/7",,Italy,Savona,Province of Savona,2020-02-27T08:15:06.292622Z,283,SRID=4326;POINT (8.20626 44.08777),Ceriale Sud,"A10, E80",2019-12-06T16:00:06.048992Z,1,IONITY High Power Charging
+4,Manchester,27,53.713494,-2.477038,"Number of CCS Chargers: 4
+Station open 24/7",,United Kingdom,Blackburn with Darwen,Blackburn with Darwen,2020-07-08T16:15:10.724728Z,282,SRID=4326;POINT (-2.477038 53.713494),Blackburn,"A56, M61",2019-12-02T10:15:08.250757Z,1,IONITY High Power Charging
+4,Luton,21,52.013772,-0.203003,"Number of CCS Chargers: 4
+Station open 24/7",,United Kingdom,Central Bedfordshire,Central Bedfordshire,2020-07-15T16:45:10.124134Z,281,SRID=4326;POINT (-0.203003 52.013772),Baldock,"A1, E15",2019-12-02T10:15:07.025184Z,1,IONITY High Power Charging
+6,Peterborough,7,52.532663,-0.32065,"Number of CCS Chargers: 6
+Station open 24/7",,United Kingdom,Peterborough,Peterborough,2020-06-10T19:00:08.648939Z,280,SRID=4326;POINT (-0.32065 52.532663),Peterborough,"A1, A45, A47, E15",2019-12-02T10:15:06.739106Z,1,IONITY High Power Charging
+,Reading,27,51.587934,-0.629065,now building,,United Kingdom,Buckinghamshire,Buckinghamshire,,279,SRID=4326;POINT (-0.629065 51.587934),Beaconsfield,"E30, M25, M4, M40",2019-12-02T10:15:06.455513Z,0,IONITY High Power Charging
+4,Exeter,20,50.863745,-3.38449,"Number of CCS Chargers: 4
+Station open 24/7",,United Kingdom,Devon,Devon,2020-08-26T09:30:06.489746Z,278,SRID=4326;POINT (-3.38449 50.863745),Cullompton,M5,2019-12-02T10:15:04.715887Z,1,IONITY High Power Charging
+2,Vossavangen,90,59.83325,6.81375,"Number of CCS Chargers: 2
+Station open 24/7",,Norway,Hordaland,Hordaland,2020-02-28T07:15:08.225195Z,277,SRID=4326;POINT (6.81375 59.83325),Røldal,E134,2019-11-26T12:15:07.928430Z,1,IONITY High Power Charging
+,Rotterdam,13,51.834832,4.618082,now building,,Netherlands,Zuid-Holland,South Holland,,276,SRID=4326;POINT (4.618082 51.834832),Sandeligen West,"A15, A16, A29, E19, E31",2019-11-26T08:30:08.864832Z,0,IONITY High Power Charging
+4,Borås,31,57.81289,13.41947,"Number of CCS Chargers: 4
+Station open 24/7",,Sweden,Västra Götaland,Västra Götaland County,2020-02-25T11:15:08.539034Z,275,SRID=4326;POINT (13.41947 57.81289),Ulricehamn,E63,2019-11-20T10:15:08.029594Z,1,IONITY High Power Charging
+4,Hannover,19,52.386433,9.998919,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Niedersachsen,Lower Saxony,2020-07-30T16:15:06.829781Z,274,SRID=4326;POINT (9.998919000000001 52.386433),Lehrter See Süd,"A2, A7, E30, E45",2019-11-18T13:15:05.351236Z,1,IONITY High Power Charging
+4,Passau,5,48.588065,13.366667,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2020-05-29T15:00:04.903666Z,273,SRID=4326;POINT (13.366667 48.588065),Donautal Ost,E56,2019-11-18T13:15:04.214802Z,1,IONITY High Power Charging
+4,Passau,5,48.589422,13.365369,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2020-05-29T15:00:01.405676Z,272,SRID=4326;POINT (13.365369 48.589422),Donautal West,E56,2019-11-18T13:15:01.493069Z,1,IONITY High Power Charging
+4,Frankfurt,17,50.054708,8.908177,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Hessen,Hesse,2020-06-18T13:00:12.154790Z,271,SRID=4326;POINT (8.908177 50.054708),Weiskirchen Süd,"A3, A5, E45, E451",2019-11-11T01:30:08.486133Z,1,IONITY High Power Charging
+4,Maastricht,38,50.817306,6.216629,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Nordrhein-Westfalen,North Rhine-Westphalia,2020-02-11T14:00:08.027436Z,270,SRID=4326;POINT (6.216629 50.817306),Aachener Land Süd,"A2, A3, A44, E314, E40",2019-11-11T01:30:06.783296Z,1,IONITY High Power Charging
+4,Rosenheim,6,47.802835,12.178503,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2020-04-24T21:00:02.070555Z,269,SRID=4326;POINT (12.178503 47.802835),Samerberg Nord,"A8, E45, E52, E60",2019-11-11T01:30:01.460012Z,1,IONITY High Power Charging
+4,Regensburg,44,48.931751,12.708247,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2020-02-06T02:00:01.541015Z,268,SRID=4326;POINT (12.708247 48.931751),Bayerischer Wald Nord,E56,2019-11-11T01:30:01.384124Z,1,IONITY High Power Charging
+4,Verona,35,45.50105,11.43627,"Number of CCS Chargers: 4
+Station open 24/7",,Italy,Vicenza,Province of Vicenza,2020-07-09T15:30:02.643271Z,267,SRID=4326;POINT (11.43627 45.50105),Montecchio Maggiore,"A4, E70",2019-11-07T16:45:03.164893Z,1,IONITY High Power Charging
+4,Hannover,19,52.388762,9.99631,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Niedersachsen,Lower Saxony,2020-06-03T17:00:04.244868Z,266,SRID=4326;POINT (9.996309999999999 52.388762),Lehrter See Nord,"A2, A7, E30, E45",2019-11-06T09:45:04.229979Z,1,IONITY High Power Charging
+4,Genoa,66,44.22647,9.72971,"Number of CCS Chargers: 4
+Station open 24/7",,Italy,La Spezia,Province of La Spezia,2020-01-23T11:00:09.065323Z,265,SRID=4326;POINT (9.729710000000001 44.22647),Brugnato Ovest,"A7, E62",2019-11-04T10:30:08.279097Z,1,IONITY High Power Charging
+4,Maastricht,37,50.817668,6.213854,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Nordrhein-Westfalen,North Rhine-Westphalia,2020-02-11T14:00:07.505309Z,264,SRID=4326;POINT (6.213854 50.817668),Aachener Land Nord,"A2, A3, A44, E314, E40",2019-11-04T07:15:08.035256Z,1,IONITY High Power Charging
+4,Osnabrück,29,52.539229,8.114598,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Niedersachsen,Lower Saxony,2020-03-17T10:15:04.218272Z,263,SRID=4326;POINT (8.114598000000001 52.539229),Dammer Berge Ost,"A1, E37",2019-11-04T07:15:05.348833Z,1,IONITY High Power Charging
+4,Neuchâtel,19,46.832458,6.859379,"Number of CCS Chargers: 4
+Station open 24/7",,Switzerland,Fribourg,Canton of Fribourg,2019-12-20T07:00:09.795055Z,262,SRID=4326;POINT (6.859379 46.832458),Lully,"A1, E25",2019-11-04T00:45:09.379697Z,1,IONITY High Power Charging
+4,Osnabrück,29,52.540755,8.112701,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Niedersachsen,Lower Saxony,2020-03-17T10:15:04.687564Z,261,SRID=4326;POINT (8.112700999999999 52.540755),Dammer Berge West,"A1, E37",2019-10-28T13:15:04.952987Z,1,IONITY High Power Charging
+,Parma,51,45.02694,9.73478,now building,,Italy,Piacenza,Province of Piacenza,,260,SRID=4326;POINT (9.734780000000001 45.02694),Piacenza,"A1, A21, E35, E70",2019-10-22T11:15:02.813810Z,0,IONITY High Power Charging
+4,Dijon,39,47.30968,4.501811,"Number of CCS Chargers: 4
+Station open 24/7",,France,Côte-d'Or,Côte-d'Or,2019-12-12T16:00:03.741550Z,259,SRID=4326;POINT (4.501811 47.30968),Lochères,"A38, A6, E15, E60",2019-10-21T18:30:02.631360Z,1,IONITY High Power Charging
+4,Hannover,36,52.226977,9.232545,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Niedersachsen,Lower Saxony,2019-12-19T16:00:07.742899Z,258,SRID=4326;POINT (9.232545 52.226977),Auetal Süd,"A2, E30",2019-10-21T07:15:06.097352Z,1,IONITY High Power Charging
+4,Fürth,53,49.241155,10.356121,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2019-12-05T08:15:06.425521Z,257,SRID=4326;POINT (10.356121 49.241155),Frankenhöhe Süd,"A6, A7, E43, E50",2019-10-21T07:15:05.283150Z,1,IONITY High Power Charging
+4,Hannover,37,52.223703,9.221469,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Niedersachsen,Lower Saxony,2019-12-20T07:45:05.054999Z,256,SRID=4326;POINT (9.221469000000001 52.223703),Auetal Nord,"A2, E30",2019-10-21T07:15:03.649602Z,1,IONITY High Power Charging
+4,Fürth,53,49.242629,10.352944,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2019-12-05T08:15:04.022310Z,255,SRID=4326;POINT (10.352944 49.242629),Frankenhöhe Nord,"A6, A7, E43, E50",2019-10-21T07:15:03.293307Z,1,IONITY High Power Charging
+4,Zagreb,11,45.78376,16.150672,"Number of CCS Chargers: 4
+Station open 24/7",,Croatia,Zagrebacka,Zagreb County,2020-01-28T00:00:09.443814Z,254,SRID=4326;POINT (16.150672 45.78376),Sop,"A3, A4, E65, E70, E71",2019-10-20T22:45:07.106944Z,1,IONITY High Power Charging
+4,Monaco,63,43.9592,8.13416,"Number of CCS Chargers: 4
+Station open 24/7",,Italy,Savona,Province of Savona,2020-06-26T12:00:05.825393Z,253,SRID=4326;POINT (8.13416 43.9592),Rinovo Nord,"A10, E80",2019-10-16T08:45:03.453069Z,1,IONITY High Power Charging
+4,Norrköping,2,58.57675,16.1812,"Number of CCS Chargers: 4
+Station open 24/7",,Sweden,Östergötland,Östergötland County,2019-12-12T21:30:07.436528Z,252,SRID=4326;POINT (16.1812 58.57675),Norrkøping,"E22, E4, E63",2019-10-15T17:00:05.546026Z,1,IONITY High Power Charging
+4,Biarritz,16,43.586191,-1.419585,"Number of CCS Chargers: 4
+Station open 24/7",,France,Landes,Landes,2020-06-11T16:00:08.483984Z,251,SRID=4326;POINT (-1.419585 43.586191),Labenne Est,"A63, E5, E70",2019-10-14T08:15:05.928833Z,1,IONITY High Power Charging
+4,Biarritz,16,43.586073,-1.420776,"Number of CCS Chargers: 4
+Station open 24/7",,France,Landes,Landes,2020-06-11T16:00:08.130590Z,250,SRID=4326;POINT (-1.420776 43.586073),Labenne Ouest,"A63, E5, E70",2019-10-14T08:15:05.637594Z,1,IONITY High Power Charging
+4,Lyon,20,45.843868,5.070508,"Number of CCS Chargers: 4
+Station open 24/7",,France,Ain,Ain,2019-12-17T14:15:01.955370Z,249,SRID=4326;POINT (5.070508 45.843868),Lyon-Dagneux Sud,E611,2019-10-14T08:15:01.162610Z,1,IONITY High Power Charging
+4,Augsburg,32,48.058328,10.847694,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2020-03-18T19:00:07.484958Z,248,SRID=4326;POINT (10.847694 48.058328),Lechwiesen Süd,"B17, E54",2019-10-14T00:15:05.544809Z,1,IONITY HIGH POWER CHARGING
+4,Dortmund,12,51.467751,7.596959,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Nordrhein-Westfalen,North Rhine-Westphalia,2020-02-11T14:00:06.349849Z,247,SRID=4326;POINT (7.596959 51.467751),Lichtendorf Süd,"A1, A40, A44, A45, E331, E41",2019-10-14T00:15:04.462680Z,1,IONITY HIGH POWER CHARGING
+4,Augsburg,32,48.059266,10.846791,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2020-03-24T13:15:02.751685Z,246,SRID=4326;POINT (10.846791 48.059266),Lechwiesen Nord,"B17, E54",2019-10-14T00:15:02.086291Z,1,IONITY HIGH POWER CHARGING
+2,Hämeenlinna,2,61.00769,24.42201,"Number of CCS Chargers: 2
+Station open 24/7",,Finland,Tavastia Proper,Tavastia Proper,2019-11-22T00:00:08.723644Z,245,SRID=4326;POINT (24.42201 61.00769),Tiiriö,"3, E12",2019-10-07T08:00:07.025987Z,1,IONITY High Power Charging
+,Dublin,23,53.253234,-6.5698138,now building,,Ireland,Kildare,County Kildare,,244,SRID=4326;POINT (-6.5698138 53.253234),Kill South,", E20, M7",2019-09-30T09:00:03.009794Z,0,IONITY High Power Charging
+4,Dublin,24,53.2482657,-6.5964347,"Number of CCS Chargers: 4
+Station open 24/7",,Ireland,Kildare,County Kildare,2020-07-20T17:15:01.821601Z,243,SRID=4326;POINT (-6.5964347 53.2482657),Kill North,", E20, M7",2019-09-30T09:00:00.656320Z,1,IONITY High Power Charging
+2,Lahti,4,60.9835,25.73731,"Number of CCS Chargers: 2
+Station open 24/7",,Finland,Päijät-Häme,Päijänne Tavastia,2019-11-20T18:30:08.603884Z,242,SRID=4326;POINT (25.73731 60.9835),Karisto,"4, E75",2019-09-30T07:15:06.856486Z,1,IONITY High Power Charging
+4,Vienna,31,48.157839,15.940398,"Number of CCS Chargers: 4
+Station open 24/7",,Austria,Niederösterreich,Lower Austria,2019-11-12T23:15:03.321082Z,241,SRID=4326;POINT (15.940398 48.157839),Steinhäusl,"A1, A21, E60",2019-09-30T07:15:02.722597Z,1,IONITY High Power Charging
+4,Kalmar,65,57.2513,16.44875,"Number of CCS Chargers: 4
+Station open 24/7",,Sweden,Kalmar,Kalmar County,2019-12-11T17:45:06.927382Z,240,SRID=4326;POINT (16.44875 57.2513),Oskarshamn,E22,2019-09-25T09:45:07.105405Z,1,IONITY High Power Charging
+4,Sundsvall,7,62.33874,17.3538,"Number of CCS Chargers: 4
+Station open 24/7",,Sweden,Västernorrland,Västernorrland County,2020-05-06T13:30:03.212512Z,239,SRID=4326;POINT (17.3538 62.33874),Sundsvall,"E14, E4",2019-09-24T07:00:04.227551Z,1,IONITY High Power Charging
+,Maribor,7,46.606361,15.663762,now building,,Slovenia,Pesnica,Pesnica Municipality,,238,SRID=4326;POINT (15.663762 46.606361),Dobrenje Vzhod (dir. Graz),"A1, A5, E57, E59, E653",2019-09-23T14:15:06.149496Z,0,IONITY High Power Charging
+,Maribor,7,46.609599,15.661929,now building,,Slovenia,Pesnica,Pesnica Municipality,,237,SRID=4326;POINT (15.661929 46.609599),Dobrenje Zahod (dir. Maribour),"A1, A5, E57, E59, E653",2019-09-23T14:15:04.677398Z,0,IONITY High Power Charging
+6,s-Hertogenbosch,31,51.626603,4.869592,"Number of CCS Chargers: 6
+Station open 24/7",,Netherlands,Noord-Brabant,North Brabant,2020-02-20T18:45:06.597252Z,236,SRID=4326;POINT (4.869592 51.626603),Oosterhout,"A27, A58, E19, E311, E312",2019-09-23T13:00:05.854997Z,1,IONITY High Power Charging
+4,Skien,85,59.49497,8.2027,"Number of CCS Chargers: 4
+Station open 24/7",,Norway,Telemark,Telemark,2019-11-14T13:45:06.339164Z,235,SRID=4326;POINT (8.2027 59.49497),Høydalsmo,E134,2019-09-23T12:45:06.684566Z,1,IONITY High Power Charging
+4,Zalaegerszeg,44,46.68356,17.37848,"Number of CCS Chargers: 4
+Station open 24/7",,Hungary,Somogy,Somogy County,2019-12-19T10:45:08.508390Z,234,SRID=4326;POINT (17.37848 46.68356),Balatonkeresztúr (direction Budapest),"68, E661, E71, M7",2019-09-23T06:45:08.339775Z,1,IONITY High Power Charging
+4,Zalaegerszeg,44,46.685063,17.37977,"Number of CCS Chargers: 4
+Station open 24/7",,Hungary,Somogy,Somogy County,2020-02-12T18:00:03.998955Z,233,SRID=4326;POINT (17.37977 46.685063),Balatonkeresztúr (direction Zagreb),"68, E661, E71, M7",2019-09-23T06:45:04.467491Z,1,IONITY High Power Charging
+4,Auxerre,33,47.974493,3.197267,"Number of CCS Chargers: 4
+Station open 24/7",,France,Yonne,Yonne,2019-11-19T18:15:07.204717Z,232,SRID=4326;POINT (3.197267 47.974493),La Réserve,"A6, E15, E511, E60",2019-09-18T14:15:07.408718Z,1,IONITY High Power Charging
+4,Gießen,17,50.622937,8.894846,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Hessen,Hesse,2020-05-07T12:00:09.720998Z,231,SRID=4326;POINT (8.894845999999999 50.622937),Reinhardshain Nord,"A480, A5, E40, E451",2019-09-16T09:15:08.087727Z,1,IONITY High Power Charging
+4,Dijon,55,47.813347,5.22459,"Number of CCS Chargers: 4
+Station open 24/7",,France,Haute-Marne,Haute-Marne,2019-11-13T23:15:05.261990Z,230,SRID=4326;POINT (5.22459 47.813347),Langres Noidant,"A31, E17, E21, E54, N19",2019-09-13T06:30:06.172971Z,1,IONITY High Power Charging
+4,Melun,30,48.262403,2.722228,"Number of CCS Chargers: 4
+Station open 24/7",,France,Seien-et-Marne,Seine-et-Marne,2019-11-08T16:00:04.498214Z,229,SRID=4326;POINT (2.722228 48.262403),Nemours,"A6, A77, E15",2019-09-10T09:00:04.467160Z,1,IONITY High Power Charging
+4,Dijon,55,47.815184,5.223172,"Number of CCS Chargers: 4
+Station open 24/7",,France,Haute-Marne,Haute-Marne,2019-12-11T17:45:03.088057Z,228,SRID=4326;POINT (5.223172 47.815184),Langres Perrogney,"A31, E17, E21, E54, N19",2019-09-09T10:15:03.741275Z,1,IONITY High Power Charging
+2,Lorca,15,37.575694,-1.800833,"Number of CCS Chargers: 2
+Station open 24/7",,Spain,Murcia,Region of Murcia,2020-02-12T08:45:03.087444Z,227,SRID=4326;POINT (-1.800833 37.575694),Puerto Lumbreras,"A7, A92N, C3211, E15",2019-09-09T10:15:03.629407Z,1,IONITY High Power Charging
+4,Düsseldorf,14,51.156807,6.964803,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Nordrhein-Westfalen,North Rhine-Westphalia,2019-12-19T14:15:08.259171Z,226,SRID=4326;POINT (6.964803 51.156807),Ohligser Heide Ost,"A3, A46, E35",2019-09-09T07:30:07.595809Z,1,IONITY High Power Charging
+4,Hamburg,41,53.299087,9.53517,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Niedersachsen,Lower Saxony,2019-11-19T08:45:01.824933Z,225,SRID=4326;POINT (9.535170000000001 53.299087),Ostetal Süd,"A1, E22",2019-09-09T07:30:02.599339Z,1,IONITY High Power Charging
+2,Arnhem,23,51.921616,5.603749,"Number of CCS Chargers: 2
+Station open 24/7",,Netherlands,Gelderland,Gelderland,2019-12-13T17:00:02.828920Z,224,SRID=4326;POINT (5.603749 51.921616),Overbroek,"A15, E31",2019-09-05T20:30:03.160525Z,1,IONITY High Power Charging
+4,Helsingborg,5,56.01699,12.75934,"Number of CCS Chargers: 4
+Station open 24/7",,Sweden,Skåne,Skåne County,2020-01-15T16:45:04.285092Z,223,SRID=4326;POINT (12.75934 56.01699),Helsingborg,"E20, E4, E6",2019-09-02T14:00:03.845361Z,1,IONITY High Power Charging
+4,Düsseldorf,14,51.1579,6.961815,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Nordrhein-Westfalen,North Rhine-Westphalia,2019-12-19T15:45:01.918511Z,222,SRID=4326;POINT (6.961815 51.1579),Ohligser Heide West,"A3, A46, E35",2019-09-02T14:00:02.453580Z,1,IONITY High Power Charging
+4,Innsbruck,44,47.327313,10.819309,"Number of CCS Chargers: 4
+Station open 24/7",,Austria,Tirol,Tyrol,2019-10-23T17:15:02.018048Z,221,SRID=4326;POINT (10.819309 47.327313),Nassereith,"A12, B189, E60",2019-09-02T07:00:02.582556Z,1,IONITY High Power Charging
+2,Turku,25,60.42587,22.724,"Number of CCS Chargers: 2
+Station open 24/7",,Finland,Finland Proper,Finland Proper,2019-10-30T15:45:08.382722Z,220,SRID=4326;POINT (22.724 60.42587),Paimio,"1, E18",2019-08-27T21:30:06.216185Z,1,IONITY High Power Charging
+2,Palermo,3,38.09985,13.34618,"Number of CCS Chargers: 2
+Station open 24/7",,Italy,Palermo,Province of Palermo,2020-08-06T14:30:06.278151Z,219,SRID=4326;POINT (13.34618 38.09985),"Via Ernesto Basile, Palermo","A19, A29, E90, S121",2019-08-27T21:15:04.024856Z,1,IONITY High Power Charging
+4,Bremen,27,52.998531,9.181213,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Niedersachsen,Lower Saxony,2019-11-19T08:45:06.507105Z,218,SRID=4326;POINT (9.181213 52.998531),Goldbach Süd,"A1, A27, E22, E234",2019-08-26T12:15:05.745124Z,1,IONITY High Power Charging
+4,Bremen,26,53.000606,9.179514,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Niedersachsen,Lower Saxony,2019-11-19T08:45:05.994004Z,217,SRID=4326;POINT (9.179513999999999 53.000606),Goldbach Nord,"A1, A27, E22, E234",2019-08-26T12:15:05.344414Z,1,IONITY High Power Charging
+4,Munich,29,47.892208,11.731279,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2020-03-05T10:30:03.376595Z,216,SRID=4326;POINT (11.731279 47.892208),Holzkirchen Nord,"A8, E45, E52",2019-08-26T08:00:03.219686Z,1,IONITY High Power Charging
+4,Kristianstad,2,56.02307,14.17307,"Number of CCS Chargers: 4
+Station open 24/7",,Sweden,Skåne,Skåne County,2019-12-04T07:30:07.421981Z,215,SRID=4326;POINT (14.17307 56.02307),Kristianstad,E22,2019-08-23T12:00:06.408940Z,1,IONITY High Power Charging
+4,Hamburg,41,53.299981,9.532557,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Niedersachsen,Lower Saxony,2019-11-19T08:45:08.760306Z,214,SRID=4326;POINT (9.532557000000001 53.299981),Ostetal Nord,"A1, E22",2019-08-20T11:00:06.632143Z,1,IONITY High Power Charging
+4,Dortmund,12,51.468319,7.594014,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Nordrhein-Westfalen,North Rhine-Westphalia,2019-12-17T08:45:03.982040Z,213,SRID=4326;POINT (7.594014 51.468319),Lichtendorf Nord,"A1, A40, A44, A45, E331, E41",2019-08-12T08:15:03.419133Z,1,IONITY High Power Charging
+4,Berlin,23,52.318183,13.494709,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Brandenburg,Brandenburg,2020-01-20T07:00:06.055719Z,212,SRID=4326;POINT (13.494709 52.318183),Am Fichtenplan Nord,"A10, A12, A13, E30, E36, E55",2019-08-05T08:15:04.498060Z,1,IONITY High Power Charging
+4,Gießen,20,50.620347,8.362918,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Hessen,Hesse,2019-09-25T16:45:04.933838Z,211,SRID=4326;POINT (8.362918000000001 50.620347),Katzenfurt Süd,"A45, B49, E41, E44",2019-08-05T08:15:03.605726Z,1,IONITY High Power Charging
+4,Regensburg,43,48.931044,12.705416,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2019-11-20T16:15:06.057170Z,210,SRID=4326;POINT (12.705416 48.931044),Bayerischer Wald Süd,E56,2019-07-30T11:45:05.072532Z,1,IONITY High Power Charging
+6,Leeds,9,53.77046,-1.47691,"Number of CCS Chargers: 6
+Station open 24/7",,United Kingdom,Leeds,Leeds,2020-03-30T10:00:08.869771Z,209,SRID=4326;POINT (-1.47691 53.77046),Leeds Skelton Lakes,"A621, E20, M1, M62",2019-07-29T15:30:06.898797Z,1,IONITY High Power Charging
+4,Hamburg,49,53.110044,9.984058,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Niedersachsen,Lower Saxony,2019-09-16T14:45:07.303678Z,208,SRID=4326;POINT (9.984057999999999 53.110044),Lüneburger Heide Ost,"A7, E45",2019-07-29T06:00:06.028961Z,1,IONITY High Power Charging
+4,Prague,32,49.95581,14.062759,"Number of CCS Chargers: 4
+Station open 24/7",,Czech Republic,Středočeský,Central Bohemian Region,2019-11-28T16:30:05.047339Z,207,SRID=4326;POINT (14.062759 49.95581),Beroun (dir. Prague),"D5, E50",2019-07-29T06:00:04.757879Z,1,IONITY High Power Charging
+4,Wuppertal,11,51.158407,7.230332,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Nordrhein-Westfalen,North Rhine-Westphalia,2019-12-16T12:15:03.560647Z,206,SRID=4326;POINT (7.230332 51.158407),Remscheid Ost,"A1, E37",2019-07-29T06:00:03.329072Z,1,IONITY High Power Charging
+2,Drogheda,10,53.6376,-6.25894,"Number of CCS Chargers: 2
+Station open 24/7",,Ireland,Meath,County Meath,2019-12-06T12:00:04.356031Z,205,SRID=4326;POINT (-6.25894 53.6376),Citynorth,"E1, M1",2019-07-22T11:45:03.728559Z,1,IONITY High Power Charging
+4,Hamburg,49,53.109317,9.981663,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Niedersachsen,Lower Saxony,2019-09-16T14:45:06.877148Z,204,SRID=4326;POINT (9.981662999999999 53.109317),Lüneburger Heide West,"A7, E45",2019-07-22T00:45:04.975890Z,1,IONITY High Power Charging
+4,Munich,27,47.906573,11.717379,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2019-11-26T19:00:01.677439Z,203,SRID=4326;POINT (11.717379 47.906573),Holzkirchen Süd,"A8, E45, E52",2019-07-22T00:45:02.261884Z,1,IONITY High Power Charging
+4,Würzburg,39,49.484491,10.211978,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2019-10-21T07:30:01.762220Z,202,SRID=4326;POINT (10.211978 49.484491),Ohrenbach West,"A7, E43",2019-07-22T00:45:02.209479Z,1,IONITY High Power Charging
+4,Annecy,39,45.548541,6.158058,"Number of CCS Chargers: 4
+Station open 24/7",,France,Savoie,Savoie,2019-11-29T17:00:07.150016Z,201,SRID=4326;POINT (6.158058 45.548541),Arclusaz,"A43, E70",2019-07-15T11:00:04.601833Z,1,IONITY High Power Charging
+2,Karlovac,48,45.907702,15.3708,"Number of CCS Chargers: 2
+Station open 24/7",,Slovenia,Krško,Municipality of Krško,2020-07-02T11:45:09.538128Z,200,SRID=4326;POINT (15.3708 45.907702),Smednik,"A2, E70",2019-07-11T08:00:05.014756Z,1,IONITY High Power Charging
+4,Würzburg,21,49.779352,10.246493,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2019-09-17T08:15:04.670086Z,199,SRID=4326;POINT (10.246493 49.779352),Haidt Süd,"A3, A7, E43, E45",2019-07-08T14:00:04.098726Z,1,IONITY High Power Charging
+4,Lyon,13,45.885078,4.894234,"Number of CCS Chargers: 4
+Station open 24/7",,France,Ain,Ain,2020-02-10T19:45:10.133750Z,198,SRID=4326;POINT (4.894234 45.885078),Mionnay Saint Galmier,E611,2019-07-03T13:00:05.760019Z,1,IONITY High Power Charging
+4,Barcelona,15,41.420526,2.00216,"Number of CCS Chargers: 4
+Station open 24/7",,Spain,Barcelona,Barcelona Province,2019-10-18T06:30:02.175371Z,197,SRID=4326;POINT (2.00216 41.420526),Palleja,"A2, AP7, E15",2019-07-03T13:00:02.943061Z,1,IONITY High Power Charging
+4,Szombathely,43,47.373952,16.093842,"Number of CCS Chargers: 4
+Station open 24/7",,Austria,Burgenland,Burgenland,2019-07-30T12:00:04.093285Z,196,SRID=4326;POINT (16.093842 47.373952),Pinkafeld,", A2, E59",2019-07-02T05:45:04.293301Z,1,IONITY High Power Charging
+2,Utrecht,9,52.014675,5.12222,"Number of CCS Chargers: 2
+Station open 24/7",,Netherlands,Utrecht,Utrecht,2019-09-26T23:15:04.567378Z,195,SRID=4326;POINT (5.12222 52.014675),De Knoest,"A12, A2, A27, E25, E311, E35",2019-07-01T09:30:04.471735Z,1,IONITY High Power Charging
+2,Utrecht,9,52.014276,5.119229,"Number of CCS Chargers: 2
+Station open 24/7",,Netherlands,Utrecht,Utrecht,2019-08-27T21:15:04.841264Z,194,SRID=4326;POINT (5.119229 52.014276),De Kroon,"A12, A2, A27, E25, E311, E35",2019-07-01T09:15:03.867135Z,1,IONITY High Power Charging
+4,Innsbruck,31,47.00627,11.50668,"Number of CCS Chargers: 4
+Station open 24/7",,Austria,Tirol,Tyrol,2019-10-30T16:15:09.501135Z,193,SRID=4326;POINT (11.50668 47.00627),Brenner,"A13, A22, E45",2019-06-26T06:45:05.972808Z,1,IONITY High Power Charging
+4,Växjö,54,57.1645,14.07578,"Number of CCS Chargers: 4
+Station open 24/7",,Sweden,Jönköping,Jönköping County,2019-11-06T18:00:06.806067Z,192,SRID=4326;POINT (14.07578 57.1645),Värnamo,E4,2019-06-21T05:30:03.868944Z,1,IONITY High Power Charging
+4,Lyon,13,45.889238,4.893502,"Number of CCS Chargers: 4
+Station open 24/7",,France,Ain,Ain,2019-12-17T17:15:08.996533Z,191,SRID=4326;POINT (4.893502 45.889238),Mionnay Chatanay,E611,2019-06-17T14:45:05.630974Z,1,IONITY High Power Charging
+4,Annecy,39,45.547331,6.154824,"Number of CCS Chargers: 4
+Station open 24/7",,France,Savoie,Savoie,2019-11-28T19:00:07.065339Z,190,SRID=4326;POINT (6.154824 45.547331),Val Gelon,"A43, E70",2019-06-17T14:45:05.409496Z,1,IONITY High Power Charging
+4,Ros Comain,31,53.400721,-7.827948,"Number of CCS Chargers: 4
+Station open 24/7",,Ireland,Westmeath,County Westmeath,2019-09-13T11:30:02.784202Z,189,SRID=4326;POINT (-7.827948 53.400721),Athlone,N6,2019-06-17T14:45:02.579339Z,1,IONITY High Power Charging
+4,Rosenheim,6,47.801229,12.177198,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2019-08-13T15:15:05.968607Z,188,SRID=4326;POINT (12.177198 47.801229),Samerberg Süd,"A8, E45, E52, E60",2019-06-17T09:15:05.575672Z,1,IONITY High Power Charging
+10,Roskilde,13,55.58492,12.258,"Number of CCS Chargers: 10
+Station open 24/7",,Denmark,Sjaælland,Region Zealand,2019-10-28T13:15:05.401811Z,187,SRID=4326;POINT (12.258 55.58492),Greve,"E20, E47, E55",2019-06-17T07:00:03.941464Z,1,IONITY High Power Charging
+4,Annecy,4,45.876536,6.070678,"Number of CCS Chargers: 4
+Station open 24/7",,France,Haute-Savoie,Haute-Savoie,2019-10-25T15:00:07.026187Z,186,SRID=4326;POINT (6.070678 45.876536),Fontanelles,"A410, E712",2019-06-11T21:15:04.213238Z,1,IONITY High Power Charging
+4,Trieste,13,45.540178,13.726839,"Number of CCS Chargers: 4
+Station open 24/7",,Slovenia,Koper,Koper City Municipality,2020-01-30T15:30:09.501083Z,185,SRID=4326;POINT (13.726839 45.540178),Koper,"A9, E751",2019-06-05T10:15:05.628049Z,1,IONITY High Power Charging
+4,Würzburg,41,49.898302,9.394346,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2019-07-26T09:30:03.573676Z,184,SRID=4326;POINT (9.394346000000001 49.898302),Spessart Nord,"A3, E45",2019-06-04T10:15:03.705448Z,1,IONITY High Power Charging
+,Udine,44,45.79725,12.81914,now building,,Italy,Venezia,Province of Venice,,183,SRID=4326;POINT (12.81914 45.79725),Portogruaro,"A4, E55, E70",2019-06-04T06:00:02.498132Z,0,IONITY High Power Charging
+2,Besançon,63,46.774589,5.523009,"Number of CCS Chargers: 2
+Station open 24/7",,France,Jura,Jura,2019-10-08T18:30:04.908639Z,182,SRID=4326;POINT (5.523009 46.774589),Jura,"A39, N5",2019-05-27T16:30:04.387727Z,1,IONITY HIGH POWER CHARGING
+4,Dijon,33,47.030917,5.10791,"Number of CCS Chargers: 4
+Station open 24/7",,France,Côte-d'Or,Côte-d'Or,2019-11-22T19:30:08.401862Z,181,SRID=4326;POINT (5.10791 47.030917),Bois Guillerot,"A36, E60",2019-05-21T14:45:06.029595Z,1,IONITY High Power Charging
+4,Dijon,33,47.032073,5.109707,"Number of CCS Chargers: 4
+Station open 24/7",,France,Côte-d'Or,Côte-d'Or,2019-11-22T19:30:06.200842Z,180,SRID=4326;POINT (5.109707 47.032073),Glanon,"A36, E60",2019-05-21T14:45:05.019254Z,1,IONITY High Power Charging
+4,Västerås,30,59.65339,17.08324,"Number of CCS Chargers: 4
+Station open 24/7",,Sweden,Uppsala,Uppsala County,2019-07-05T06:30:03.583444Z,179,SRID=4326;POINT (17.08324 59.65339),Enköping,E18,2019-05-21T09:00:03.454547Z,1,IONITY High Power Charging
+4,Gent,12,50.970743,3.844233,"Number of CCS Chargers: 4
+Station open 24/7",,Belgium,East Flanders,East Flanders,2019-07-17T17:15:06.322909Z,178,SRID=4326;POINT (3.844233 50.970743),Wetteren Noord,"A10, A14, A16, A22, E17, E40",2019-05-20T11:30:05.276460Z,1,IONITY High Power Charging
+4,Gent,11,50.969463,3.841574,"Number of CCS Chargers: 4
+Station open 24/7",,Belgium,East Flanders,East Flanders,2019-07-17T17:15:03.943175Z,177,SRID=4326;POINT (3.841574 50.969463),Wetteren Zuid,"A10, A14, A16, A22, E17, E40",2019-05-20T11:30:03.500797Z,1,IONITY High Power Charging
+4,Würzburg,39,49.485555,10.213267,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2019-08-28T09:45:06.940272Z,176,SRID=4326;POINT (10.213267 49.485555),Ohrenbach Ost,"A7, E43",2019-05-20T07:45:04.797888Z,1,IONITY High Power Charging
+4,Würzburg,21,49.780852,10.244797,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2019-07-26T09:30:03.366151Z,175,SRID=4326;POINT (10.244797 49.780852),Haidt Nord,"A3, A7, E43, E45",2019-05-20T07:45:03.430025Z,1,IONITY High Power Charging
+4,Nice,22,43.59197,7.036228,"Number of CCS Chargers: 4
+Station open 24/7",,France,Alpes-Maritimes,Alpes-Maritimes,2019-07-26T11:45:06.455948Z,174,SRID=4326;POINT (7.036228 43.59197),Bréguières Nord,"A8, E80",2019-05-16T12:30:05.367681Z,1,IONITY High Power Charging
+4,Toulon,32,43.423464,5.993311,"Number of CCS Chargers: 4
+Station open 24/7",,France,Var,Var,2019-07-25T12:45:05.548495Z,173,SRID=4326;POINT (5.993311 43.423464),Cambarette Nord,"A8, E80",2019-05-16T12:30:04.924316Z,1,IONITY High Power Charging
+4,Leikanger,37,60.89896,7.2108,"Number of CCS Chargers: 4
+Station open 24/7",,Norway,Sogn og Fjordane,Sogn og Fjordane,2019-06-13T14:00:02.506618Z,172,SRID=4326;POINT (7.2108 60.89896),Aurland,"13, E16",2019-05-09T05:30:02.500660Z,1,IONITY High Power Charging
+4,Melun,30,48.264072,2.722024,"Number of CCS Chargers: 4
+Station open 24/7",,France,Seien-et-Marne,Seine-et-Marne,2019-07-24T15:45:05.791174Z,171,SRID=4326;POINT (2.722024 48.264072),Aire de Darvault,"A6, A77, E15",2019-05-06T16:30:03.796109Z,1,IONITY High Power Charging
+2,Stockholm,32,59.17525,17.64293,"Number of CCS Chargers: 2
+Station open 24/7",,Sweden,Stockholm,Stockholm County,2019-07-04T06:30:04.349716Z,170,SRID=4326;POINT (17.64293 59.17525),Södertälje,"E20, E4",2019-05-06T15:15:03.216952Z,1,IONITY High Power Charging
+4,Székesfehérvár,28,47.307602,18.744217,"Number of CCS Chargers: 4
+Station open 24/7",,Hungary,Fejér,Fejér County,2019-07-18T09:30:02.104442Z,169,SRID=4326;POINT (18.744217 47.307602),Kajászó (dir. Balaton),"E71, E73, M6, M7",2019-05-06T08:00:00.645847Z,1,IONITY High Power Charging
+4,Lyon,72,46.420537,4.865333,"Number of CCS Chargers: 4
+Station open 24/7",,France,Saône-et-Loire,Saône-et-Loire,2019-10-25T15:00:04.319231Z,168,SRID=4326;POINT (4.865333 46.420537),Macon Saint-Albain,"A40, E21, E62",2019-05-02T12:15:03.220573Z,1,IONITY High Power Charging
+2,,,41.311642,-2.002738,"Number of CCS Chargers: 2
+Station open 24/7",,Spain,Zaragoza,Zaragoza Province,2020-06-17T18:30:12.602283Z,167,SRID=4326;POINT (-2.002738 41.311642),Ariza Sur,"A2, E90",2019-04-30T17:15:05.202803Z,1,IONITY High Power Charging
+4,Zaragoza,99,41.31261,-2.00133,"Number of CCS Chargers: 4
+Station open 24/7",,Spain,Zaragoza,Zaragoza Province,2020-06-17T18:30:09.642975Z,166,SRID=4326;POINT (-2.00133 41.31261),Ariza Norte,"A2, E90",2019-04-30T17:15:04.329358Z,1,IONITY High Power Charging
+4,Lyon,40,46.134416,4.766841,"Number of CCS Chargers: 4
+Station open 24/7",,France,Rhône,Rhône,2019-11-08T16:00:01.983164Z,165,SRID=4326;POINT (4.766841 46.134416),Taponas,"A6, E15",2019-04-29T13:30:02.016268Z,1,IONITY High Power Charging
+4,Toulon,53,43.413842,6.451935,"Number of CCS Chargers: 4
+Station open 24/7",,France,Var,Var,2019-07-01T06:00:05.094918Z,164,SRID=4326;POINT (6.451935 43.413842),Vidauban Sud,"A57, A8, E80",2019-04-29T10:45:05.374039Z,1,IONITY High Power Charging
+4,Würzburg,16,49.944184,10.019955,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2019-05-23T06:15:03.902997Z,163,SRID=4326;POINT (10.019955 49.944184),Riedener Wald Ost,"A7, A70, E43, E45, E48",2019-04-29T06:30:03.582177Z,1,IONITY High Power Charging
+4,Luton,27,52.05561,-0.6987,"Number of CCS Chargers: 4
+Station open 24/7",,United Kingdom,Milton Keynes,Milton Keynes,2019-06-12T14:00:03.152845Z,162,SRID=4326;POINT (-0.6987 52.05561),Milton Keynes,"A421, A5, E13, M1",2019-04-26T05:30:02.320632Z,1,IONITY High Power Charging
+4,Kilkenny,66,52.750691,-6.202153,"Number of CCS Chargers: 4
+Station open 24/7",,Ireland,Wexford,County Wexford,2019-07-19T13:15:03.929147Z,161,SRID=4326;POINT (-6.202153 52.750691),Gorey,"E1, N11",2019-04-24T12:30:03.759914Z,1,IONITY High Power Charging
+4,Poitier,13,46.704579,0.371265,"Number of CCS Chargers: 4
+Station open 24/7",,France,Vienne,Vienne,2019-08-28T12:45:05.293482Z,160,SRID=4326;POINT (0.371265 46.704579),Poitiers Jaunay-Clan,"A10, E5",2019-04-24T06:15:03.081231Z,1,IONITY High Power Charging
+4,Braunschweig,26,52.416656,10.783389,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Niedersachsen,Lower Saxony,2019-06-21T13:30:06.015482Z,159,SRID=4326;POINT (10.783389 52.416656),e-Mobility-Station Wolfsburg,"A2, A39, E30",2019-04-23T08:00:04.830604Z,1,IONITY High Power Charging
+4,Eindhoven,34,51.38008,5.985541,"Number of CCS Chargers: 4
+Station open 24/7",,Netherlands,Limburg,Limburg,2019-09-24T19:45:06.916070Z,158,SRID=4326;POINT (5.985541 51.38008),Sevenum,"A67, E34",2019-04-16T14:00:04.817637Z,1,IONITY High Power Charging
+4,Le Mans,29,47.802,-0.1699,"Number of CCS Chargers: 4
+Station open 24/7",,France,Sarthe,Sarthe,2019-10-17T17:45:05.026955Z,157,SRID=4326;POINT (-0.1699 47.802),Parcé sur Sarthe Sud,"A11, E501",2019-04-16T14:00:04.305519Z,1,IONITY High Power Charging
+4,Le Mans,29,47.8077,-0.1659,"Number of CCS Chargers: 4
+Station open 24/7",,France,Sarthe,Sarthe,2019-10-17T17:45:03.986315Z,156,SRID=4326;POINT (-0.1659 47.8077),Parcé sur Sarthe Nord,"A11, E501",2019-04-16T14:00:03.818060Z,1,IONITY High Power Charging
+4,Würzburg,16,49.944645,10.016529,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2019-05-24T12:30:05.022459Z,155,SRID=4326;POINT (10.016529 49.944645),Riedener Wald West,"A7, A70, E43, E45, E48",2019-04-15T08:15:03.771411Z,1,IONITY High Power Charging
+4,Poitier,13,46.701811,0.371062,"Number of CCS Chargers: 4
+Station open 24/7",,France,Vienne,Vienne,2019-09-16T19:15:07.658328Z,132,SRID=4326;POINT (0.371062 46.701811),Poitiers Chincé,"A10, E5",2019-04-11T11:15:04Z,1,IONITY High Power Charging
+4,Salzburg,26,47.584781,13.157939,"Number of CCS Chargers: 4
+Station open 24/7",,Austria,Salzburg,Salzburg,2019-06-06T15:00:05.055395Z,131,SRID=4326;POINT (13.157939 47.584781),Golling,"A10, E55",2019-04-08T11:45:04.385584Z,1,IONITY High Power Charging
+6,Modena,14,44.77544,10.86072,"Number of CCS Chargers: 6
+Station open 24/7",,Italy,Modena,Province of Modena,2019-09-05T12:15:06.130732Z,130,SRID=4326;POINT (10.86072 44.77544),Carpi,"A22, E45",2019-04-08T11:45:03.581595Z,1,IONITY High Power Charging
+4,Rotterdam,24,52.066539,4.738413,"Number of CCS Chargers: 4
+Station open 24/7",,Netherlands,Zuid-Holland,South Holland,2019-12-20T07:45:09.932219Z,129,SRID=4326;POINT (4.738413 52.066539),Bodegraven,"A12, E25, E30",2019-04-05T11:30:03.989927Z,1,IONITY High Power Charging
+4,Erfurt,56,51.450971,11.305148,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Sachsen-Anhalt,Saxony-Anhalt,2019-06-12T23:00:03.935089Z,128,SRID=4326;POINT (11.305148 51.450971),Sangerhausen,A38,2019-04-03T08:15:03.877317Z,1,IONITY High Power Charging
+,Tarragona,63,41.643444,0.931306,now building,,Spain,Lérida,Lleida Province,,127,SRID=4326;POINT (0.931306 41.643444),Vila Sana,A2,2019-03-29T10:45:04.454903Z,0,IONITY High Power Charging
+6,Bærum,38,60.25416,11.18202,"Number of CCS Chargers: 6
+Station open 24/7",,Norway,Akershus,Akershus,2019-04-27T07:45:02.473844Z,126,SRID=4326;POINT (11.18202 60.25416),Dal,E6,2019-03-25T09:30:02.529253Z,1,IONITY High Power Charging
+4,Haugesund,42,59.77503,5.48611,"Number of CCS Chargers: 4
+Station open 24/7",,,,,2019-05-08T06:45:02.111481Z,125,SRID=4326;POINT (5.48611 59.77503),Leirvik,E39,2019-03-25T09:30:02.387444Z,1,IONITY High Power Charging
+4,Győr,26,47.680553,17.976528,"Number of CCS Chargers: 4
+Station open 24/7",,Hungary,Komárom-Esztergom,Komárom-Esztergom County,2019-05-24T16:15:04.050731Z,124,SRID=4326;POINT (17.976528 47.680553),Bábolna (Direction Budapest),"E575, E60, E75, M1",2019-03-25T08:15:02.949238Z,1,IONITY High Power Charging
+4,Rijeka,30,45.55925,14.244183,"Number of CCS Chargers: 4
+Station open 24/7",,Slovenia,Ilirska Bistrica,Ilirska Bistrica Municipality,2019-06-05T21:30:04.119121Z,123,SRID=4326;POINT (14.244183 45.55925),Ilirska Bistrica,"7, E61",2019-03-19T08:15:04.055585Z,1,IONITY High Power Charging
+4,Nîmes,83,44.5149,4.78,"Number of CCS Chargers: 4
+Station open 24/7",,France,Drôme,Drôme,2019-07-18T15:30:03Z,121,SRID=4326;POINT (4.78 44.5149),Montélimar Ouest,E15,2019-03-18T14:00:02Z,1,IONITY High Power Charging
+4,Nîmes,83,44.5131,4.782,"Number of CCS Chargers: 4
+Station open 24/7",,France,Drôme,Drôme,2019-07-18T15:30:03Z,122,SRID=4326;POINT (4.782 44.5131),Montélimar Est,E15,2019-03-18T14:00:02Z,1,IONITY High Power Charging
+4,Gera,17,50.85675,12.3132,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Thüringen,Thuringia,2019-07-04T13:30:04.690238Z,120,SRID=4326;POINT (12.3132 50.85675),Altenburger Land Süd,E40,2019-03-12T07:00:03.407312Z,1,IONITY High Power Charging
+6,Oslo,31,60.083312,10.287055,"Number of CCS Chargers: 6
+Station open 24/7",,Norway,Buskerud,Buskerud,2019-04-05T12:45:03.751485Z,119,SRID=4326;POINT (10.287055 60.083312),Vik,E16,2019-03-11T12:45:04.395684Z,1,IONITY High Power Charging
+4,Erfurt,30,50.724708,10.847168,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Thüringen,Thuringia,2019-09-16T14:45:06.653428Z,118,SRID=4326;POINT (10.847168 50.724708),Thüringer Wald Süd,A71,2019-03-04T09:00:03.936460Z,1,IONITY High Power Charging
+4,Dresden,12,51.060227,13.571959,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Sachsen,Saxony,2019-05-29T07:30:02.316635Z,117,SRID=4326;POINT (13.571959 51.060227),Dresdner Tor Süd,"A17, E40, E55",2019-03-04T09:00:02.398775Z,1,IONITY High Power Charging
+2,Arnhem,27,52.184387,5.670553,"Number of CCS Chargers: 2
+Station open 24/7",,Netherlands,Gelderland,Gelderland,2019-05-15T13:00:05.022057Z,116,SRID=4326;POINT (5.670553 52.184387),Tolnegen Noord,"A1, E30",2019-02-28T13:15:04.146183Z,1,IONITY High Power Charging
+4,Lille,18,50.619058,3.341152,"Number of CCS Chargers: 4
+Station open 24/7",,Belgium,Hainaut,Hainaut,2019-04-26T05:30:04.190626Z,114,SRID=4326;POINT (3.341152 50.619058),Froyennes South,"A17, A27, A8, E429",2019-02-26T08:15:04Z,1,IONITY High Power Chargingo
+4,Lille,18,50.619572,3.338944,"Number of CCS Chargers: 4
+Station open 24/7",,Belgium,Hainaut,Hainaut,2019-04-25T14:45:05.115204Z,115,SRID=4326;POINT (3.338944 50.619572),Froyennes North,"A17, A27, A8, E429",2019-02-26T08:15:04Z,1,IONITY High Power Charging
+6,Leipzig,19,51.290152,12.137596,"Number of CCS Chargers: 6
+Station open 24/7",,Germany,Sachsen,Saxony,2019-10-18T13:00:06.842207Z,113,SRID=4326;POINT (12.137596 51.290152),Nempitz,"A38, E49",2019-02-25T08:00:03.452055Z,1,IONITY High Power Charging
+4,Münster,38,51.695845,7.966201,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Nordrhein-Westfalen,North Rhine-Westphalia,2019-04-04T12:15:02.350044Z,112,SRID=4326;POINT (7.966201 51.695845),Lippetal,"A2, E34",2019-02-25T08:00:02.082056Z,1,IONITY High Power Charging
+4,Gera,16,50.860662,12.307977,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Thüringen,Thuringia,2019-07-04T13:30:02.241780Z,111,SRID=4326;POINT (12.307977 50.860662),Altenburger Land Nord,E40,2019-02-25T07:45:01.882331Z,1,IONITY High Power Charging
+4,Reims,7,49.244484,3.923935,"Number of CCS Chargers: 4
+Station open 24/7",,France,Marne,Marne,2019-04-24T14:45:03.052530Z,110,SRID=4326;POINT (3.923935 49.244484),Gueux,"A26, A31, A4, E17, E46, E50",2019-02-18T11:30:02Z,1,IONITY High Power Charging
+4,Diekirch,55,50.068492,6.880212,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Rheinland-Pfalz,Rhineland-Palatinate,2019-05-10T07:00:04.144854Z,109,SRID=4326;POINT (6.880212 50.068492),Eifel West,"A1, A60, E42, E44",2019-02-18T10:30:04.221426Z,1,IONITY High Power Charging
+4,Erfurt,30,50.726454,10.841634,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Thüringen,Thuringia,2019-09-16T14:45:06.911047Z,108,SRID=4326;POINT (10.841634 50.726454),Thüringer Wald Nord,A71,2019-02-18T10:30:03.957695Z,1,IONITY High Power Charging
+4,Eisenstadt,28,48.056232,16.711973,"Number of CCS Chargers: 4
+Station open 24/7",,Austria,Niederösterreich,Lower Austria,2019-04-18T06:45:03.349358Z,107,SRID=4326;POINT (16.711973 48.056232),Göttlesbrunn,"A4, E58, E60",2019-02-18T10:30:03.488455Z,1,IONITY High Power Charging
+4,Dresden,12,51.063214,13.571071,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Sachsen,Saxony,2019-05-29T07:30:02.949921Z,106,SRID=4326;POINT (13.571071 51.063214),Dresdner Tor Nord,"A17, E40, E55",2019-02-18T10:30:03.022343Z,1,IONITY High Power Charging
+4,Ingolstadt,7,48.836599,11.472234,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2019-04-16T10:00:01.964357Z,105,SRID=4326;POINT (11.472234 48.836599),Köschinger Forst Ost,"A9, E45",2019-02-05T09:15:01.895432Z,1,IONITY High Power Charging
+4,Stuttgart,12,48.693667,9.303297,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Baden-Württemberg,Baden-Württemberg,2019-04-24T07:15:04.887317Z,104,SRID=4326;POINT (9.303297000000001 48.693667),Denkendorf Nord,"A8, B10, E52",2019-02-04T13:00:04.094285Z,1,IONITY High Power Charging
+4,Diekirch,55,50.070186,6.880905,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Rheinland-Pfalz,Rhineland-Palatinate,2019-07-11T09:45:03.423057Z,103,SRID=4326;POINT (6.880905 50.070186),Eifel Ost,"A1, A60, E42, E44",2019-02-04T13:00:02.765749Z,1,IONITY High Power Charging
+4,Toulouse,34,43.915744,1.309462,"Number of CCS Chargers: 4
+Station open 24/7",,France,Tarn-et-Garonne,Tarn-et-Garonne,2019-05-21T16:45:04.861300Z,102,SRID=4326;POINT (1.309462 43.915744),Montbartier,"A20, A22, A62, E72, E9",2019-01-23T18:30:03.645655Z,1,IONITY High Power Charging
+4,Kiel,37,54.014217,9.93325,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Schleswig-Holstein,Schleswig-Holstein,2019-03-21T08:45:04.211103Z,101,SRID=4326;POINT (9.933249999999999 54.014217),Brokenlande Ost,"A7, E45",2019-01-21T11:00:02.892546Z,1,IONITY High Power Charging
+4,Mons,12,50.491028,4.095774,"Number of CCS Chargers: 4
+Station open 24/7",,Belgium,Hainaut,Hainaut,2019-03-20T08:45:02.058595Z,100,SRID=4326;POINT (4.095774 50.491028),Le Roeulx / Thieu North,"A15, A7, E19, E42, N27",2019-01-09T10:15:01.452370Z,1,IONITY High Power Charging
+4,Southend-on-Sea,32,51.26566,0.61576,"Number of CCS Chargers: 4
+Station open 24/7",,United Kingdom,Kent,Kent,2019-05-16T10:00:02.231691Z,99,SRID=4326;POINT (0.61576 51.26566),Maidstone,"A249, E15, M2, M20",2018-12-20T13:00:02.180922Z,1,IONITY High Power Charging
+4,Halmstad,65,57.168,12.2774,"Number of CCS Chargers: 4
+Station open 24/7",,Sweden,Halland,Halland County,2019-03-26T08:45:03.977968Z,98,SRID=4326;POINT (12.2774 57.168),Varberg,"E20, E6",2018-12-20T06:45:03.509874Z,1,IONITY High Power Charging
+4,Linköping,19,58.37214,15.2948,"Number of CCS Chargers: 4
+Station open 24/7",,Sweden,Östergötland,Östergötland County,2019-05-22T17:00:02.839184Z,97,SRID=4326;POINT (15.2948 58.37214),Mantorp,"E4, E63",2018-12-19T13:45:01.978595Z,1,IONITY High Power Charging
+4,Vienna,28,48.425298,16.547783,"Number of CCS Chargers: 4
+Station open 24/7",,Austria,Niederösterreich,Lower Austria,2019-02-25T15:15:02.704312Z,96,SRID=4326;POINT (16.547783 48.425298),Hochleithen,"7, E461, S5",2018-12-18T15:00:02.967201Z,1,IONITY High Power Charging
+4,Kiel,29,54.092671,9.92914,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Schleswig-Holstein,Schleswig-Holstein,2019-03-21T08:45:04.004263Z,95,SRID=4326;POINT (9.92914 54.092671),Aalbek West,"A7, E45",2018-12-17T07:45:02.620403Z,1,IONITY High Power Charging
+4,Kilkenny,44,52.50884,-7.87441,"Number of CCS Chargers: 4
+Station open 24/7",,Ireland,North Tipperary,County Tipperary,2019-04-18T12:45:05.128062Z,93,SRID=4326;POINT (-7.87441 52.50884),Cashel,"E201, N8",2018-12-12T07:15:02.665609Z,1,IONITY High Power Charging
+4,Örebro,2,59.27509,15.17753,"Number of CCS Chargers: 4
+Station open 24/7",,Sweden,Orebro,Örebro County,2019-09-11T14:45:05.059378Z,92,SRID=4326;POINT (15.17753 59.27509),Örebro,"E18, E20",2018-12-12T07:15:02.322452Z,1,IONITY High Power Charging
+4,Arras,43,50.573089,2.377188,"Number of CCS Chargers: 4
+Station open 24/7",,France,Pas-de-Calais,Pas-de-Calais,2019-09-13T00:45:04.520013Z,91,SRID=4326;POINT (2.377188 50.573089),Rely,"A26, E15",2018-12-12T07:15:02Z,1,IONITY High Power Charging
+4,Geneva,26,46.064687,6.409478,"Number of CCS Chargers: 4
+Station open 24/7",,France,Haute-Savoie,Haute-Savoie,2019-05-28T12:30:05.560060Z,90,SRID=4326;POINT (6.409478 46.064687),Bonneville,"A40, A410, E25, E712",2018-12-11T06:45:02Z,1,IONITY High Power Charging
+4,Arnhem,21,52.1791,5.984281,"Number of CCS Chargers: 4
+Station open 24/7",,Netherlands,Gelderland,Gelderland,2019-04-12T14:45:03.774643Z,89,SRID=4326;POINT (5.984281 52.1791),Apeldoorn-Zuid,"A1, A50, E30",2018-12-11T06:45:02Z,1,IONITY High Power Charging
+4,Limoges,55,46.314271,1.419247,"Number of CCS Chargers: 4
+Station open 24/7",,France,Haute-Vienne,Haute-Vienne,2019-03-30T09:30:01Z,88,SRID=4326;POINT (1.419247 46.314271),Boismandé Est,"A20, E9",2018-12-10T13:30:01Z,1,IONITY High Power Charging
+4,Mons,12,50.487429,4.096217,"Number of CCS Chargers: 4
+Station open 24/7",,Belgium,Hainaut,Hainaut,2019-03-20T08:45:02.918191Z,87,SRID=4326;POINT (4.096217 50.487429),Le Roeulx / Thieu South,"A15, A7, E19, E42, N27",2018-12-07T10:45:02.392287Z,1,IONITY High Power Charging
+4,Carlisle,17,55.00796,-3.08265,"Number of CCS Chargers: 4
+Station open 24/7",,United Kingdom,Dumfries and Galloway,Dumfries and Galloway,2019-08-21T17:00:07.427396Z,86,SRID=4326;POINT (-3.08265 55.00796),Gretna Green,"A75, E18, E5, M74",2018-12-05T12:00:02.763840Z,1,IONITY High Power Charging
+4,Reims,8,49.242989,3.919106,"Number of CCS Chargers: 4
+Station open 24/7",,France,Marne,Marne,2019-04-11T11:00:03Z,85,SRID=4326;POINT (3.919106 49.242989),Vrigny,"A26, A31, A4, E17, E46, E50",2018-12-05T10:00:02Z,1,IONITY High Power Charging
+4,Odense,26,55.30933,10.80495,"Number of CCS Chargers: 4
+Station open 24/7",,Denmark,Syddanmark,Region of Southern Denmark,2019-02-07T16:15:03.729826Z,84,SRID=4326;POINT (10.80495 55.30933),Nyborg,E20,2018-12-04T08:15:02.778131Z,1,IONITY High Power Charging
+4,Amiens,48,50.16723,1.755877,"Number of CCS Chargers: 4
+Station open 24/7",,France,Somme,Somme,2019-03-28T07:15:04Z,83,SRID=4326;POINT (1.755877 50.16723),Baie de Somme,"A16, A29, E402, E44",2018-12-03T13:00:03Z,1,IONITY High Power Charging
+4,Bellinzona,1,46.209502,9.026603,"Number of CCS Chargers: 4
+Station open 24/7",,Switzerland,Ticino,Ticino,2019-03-14T16:45:03.583858Z,82,SRID=4326;POINT (9.026603 46.209502),Bellinzona Nord,"A13, A2, E35, E43",2018-12-03T07:00:01.920939Z,1,IONITY High Power Charging
+4,Ingolstadt,7,48.837085,11.469313,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2019-04-16T10:00:03.902942Z,81,SRID=4326;POINT (11.469313 48.837085),Köschinger Forst West,"A9, E45",2018-12-03T07:00:01.875980Z,1,IONITY High Power Charging
+4,Linz,22,48.196397,14.52822,"Number of CCS Chargers: 4
+Station open 24/7",,Austria,Niederösterreich,Lower Austria,2019-01-29T23:00:01.531442Z,80,SRID=4326;POINT (14.52822 48.196397),St. Valentin,"A1, E60",2018-12-03T07:00:01.322638Z,1,IONITY High Power Charging
+4,Kassel,12,51.370391,9.633405,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Niedersachsen,Lower Saxony,2019-08-12T15:30:06.193363Z,79,SRID=4326;POINT (9.633405 51.370391),Lutterberg,"A7, E45",2018-11-30T09:45:02.555114Z,1,IONITY High Power Charging
+4,Angers,30,47.4189,-0.1343,"Number of CCS Chargers: 4
+Station open 24/7",,France,Maine-et-Loire,Maine-et-Loire,2019-05-03T12:30:01.139442Z,77,SRID=4326;POINT (-0.1343 47.4189),Longué la Couaille,E60,2018-11-30T09:00:01Z,1,IONITY High Power Charging
+4,Angers,30,47.4186,-0.1315,"Number of CCS Chargers: 4
+Station open 24/7",,France,Maine-et-Loire,Maine-et-Loire,2019-05-03T12:30:01.390644Z,78,SRID=4326;POINT (-0.1315 47.4186),Longué-les-Cossonnières,E60,2018-11-30T09:00:01Z,1,IONITY High Power Charging
+4,Bergen,10,60.48457,5.37679,"Number of CCS Chargers: 4
+Station open 24/7",,Norway,Hordaland,Hordaland,2019-03-07T11:30:03.107386Z,76,SRID=4326;POINT (5.37679 60.48457),Bergen,E39,2018-11-27T07:30:02.480837Z,1,IONITY High Power Charging
+4,Klagenfurt,11,46.639636,14.451389,"Number of CCS Chargers: 4
+Station open 24/7",,Austria,Kärnten,Carinthia,2019-07-09T15:30:01.795549Z,75,SRID=4326;POINT (14.451389 46.639636),Grafenstein,"A2, E66",2018-11-26T09:00:00.957788Z,1,IONITY High Power Charging
+6,Moss,7,59.3871,10.75119,"Number of CCS Chargers: 6
+Station open 24/7",,Norway,Østfold,Østfold,2019-05-24T12:30:03.345962Z,73,SRID=4326;POINT (10.75119 59.3871),Rygge,E6,2018-11-19T12:45:01.068722Z,1,IONITY High Power Charging
+4,Limoges,55,46.313348,1.416566,"Number of CCS Chargers: 4
+Station open 24/7",,France,Haute-Vienne,Haute-Vienne,2019-03-30T09:30:04Z,74,SRID=4326;POINT (1.416566 46.313348),Boismandé Ouest,"A20, E9",2018-11-19T12:45:01Z,1,IONITY High Power Charging
+4,Mainz,24,49.92578,7.936795,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Rheinland-Pfalz,Rhineland-Palatinate,2018-12-21T15:00:04.151338Z,72,SRID=4326;POINT (7.936795 49.92578),Nahetal,"A61, E31, E42",2018-11-19T06:45:01.874393Z,1,IONITY High Power Charging
+4,Hamburg,26,53.692558,10.320428,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Schleswig-Holstein,Schleswig-Holstein,2019-05-06T08:00:03.885460Z,71,SRID=4326;POINT (10.320428 53.692558),Buddikate West,"A1, A21, E22",2018-11-19T06:45:01.806218Z,1,IONITY High Power Charging
+4,Toulouse,35,43.3348,1.245,"Number of CCS Chargers: 4
+Station open 24/7",,France,Haute-Garonne,Haute-Garonne,2019-03-14T21:45:04Z,70,SRID=4326;POINT (1.245 43.3348),Garonne,"A64, E80",2018-11-16T08:45:01Z,1,IONITY High Power Charging
+4,Toulouse,35,43.3368,1.2449,"Number of CCS Chargers: 4
+Station open 24/7",,France,Haute-Garonne,Haute-Garonne,2019-02-18T07:15:01Z,69,SRID=4326;POINT (1.2449 43.3368),Volvestre,"A64, E80",2018-11-16T08:45:00Z,1,IONITY High Power Charging
+4,Tønsberg,61,58.91483,11.26034,"Number of CCS Chargers: 4
+Station open 24/7",,Sweden,Västra Götaland,Västra Götaland County,2018-12-21T16:15:03.574072Z,68,SRID=4326;POINT (11.26034 58.91483),Strømstad,E6,2018-11-14T11:00:02.047591Z,1,IONITY High Power Charging
+4,Karlstad,2,59.38093,13.46529,"Number of CCS Chargers: 4
+Station open 24/7",,Sweden,Värmland,Värmland County,2019-06-05T16:45:04.439152Z,67,SRID=4326;POINT (13.46529 59.38093),Karlstad,E18,2018-11-13T11:30:01.888680Z,1,IONITY High Power Charging
+4,Erfurt,22,50.898384,10.725625,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Thüringen,Thuringia,2019-04-02T17:30:04.031716Z,66,SRID=4326;POINT (10.725625 50.898384),Schwabhausen,E40,2018-11-12T10:15:01.584237Z,1,IONITY High Power Charging
+4,Schaffhausen,55,48.20593,8.621045,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Baden-Württemberg,Baden-Württemberg,2019-03-28T18:30:03.900647Z,65,SRID=4326;POINT (8.621045000000001 48.20593),Neckarburg West,"A81, E41",2018-11-12T10:15:01.268687Z,1,IONITY High Power Charging
+4,Göteborg,31,58.0244,11.84746,"Number of CCS Chargers: 4
+Station open 24/7",,Sweden,Västra Götaland,Västra Götaland County,2019-04-17T06:30:02.815172Z,64,SRID=4326;POINT (11.84746 58.0244),Spekerød,E6,2018-11-12T08:30:01.465584Z,1,IONITY High Power Charging
+4,Vejle,22,55.53682,9.7169,"Number of CCS Chargers: 4
+Station open 24/7",,Denmark,Syddanmark,Region of Southern Denmark,2019-02-20T07:00:01.635035Z,63,SRID=4326;POINT (9.716900000000001 55.53682),Fredericia,"E20, E45, E67",2018-11-08T07:45:00.691286Z,1,IONITY High Power Charging
+4,Strasbourg,30,48.308819,7.791519,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Baden-Württemberg,Baden-Württemberg,2018-12-20T18:45:03.321153Z,62,SRID=4326;POINT (7.791519 48.308819),Mahlberg Ost,"A5, E35",2018-11-07T11:45:02.111812Z,1,IONITY High Power Charging
+4,Arezzo,27,43.22381,11.80217,"Number of CCS Chargers: 4
+Station open 24/7",,Italy,Siena,Province of Siena,2019-01-18T07:00:02.482377Z,61,SRID=4326;POINT (11.80217 43.22381),Valdichiana Outlet Village,"A1, E35, Pe, S326",2018-11-06T19:30:01.193239Z,1,IONITY High Power Charging
+4,Sandnes,3,58.87322,5.72126,"Number of CCS Chargers: 4
+Station open 24/7",,Norway,Rogaland,Rogaland,2019-06-11T21:15:01.438635Z,60,SRID=4326;POINT (5.72126 58.87322),Lura,E39,2018-11-06T08:15:00.396927Z,1,Number of CCS Chargers: 4<br />Station open 24/7
+4,Stralsund,51,53.855673,13.333344,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Mecklenburg-Vorpommern,Mecklenburg-Western Pomerania,2019-01-24T14:00:02.675310Z,59,SRID=4326;POINT (13.333344 53.855673),Demminer Land,"A20, E251",2018-11-05T11:15:01.152266Z,1,IONITY High Power Charging
+4,Nürnberg,32,49.312948,11.474745,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2019-03-22T07:15:02.781074Z,58,SRID=4326;POINT (11.474745 49.312948),Neumarkt,E56,2018-11-05T11:15:01.009012Z,1,IONITY High Power Charging
+4,Bellinzona,2,46.182242,9.001796,"Number of CCS Chargers: 4
+Station open 24/7",,Switzerland,Ticino,Ticino,2019-02-26T15:30:02.491231Z,57,SRID=4326;POINT (9.001796000000001 46.182242),Bellinzona Süd,"A13, A2, E35, E43",2018-11-05T11:15:00.775177Z,1,IONITY High Power Charging
+4,Schaffhausen,55,48.206218,8.627155,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Baden-Württemberg,Baden-Württemberg,2018-12-19T17:45:03.089777Z,56,SRID=4326;POINT (8.627155 48.206218),Neckarburg Ost,"A81, E41",2018-11-02T07:00:01.338712Z,1,IONITY High Power Charging
+4,Grenoble,70,45.197124,6.624119,"Number of CCS Chargers: 4
+Station open 24/7",,France,Savoie,Savoie,2019-04-18T06:45:02.108031Z,55,SRID=4326;POINT (6.624119 45.197124),Freney,"A43, D1006, E70",2018-10-29T18:00:00Z,1,IONITY High Power Charging
+4,Malmö,5,55.5562,12.95218,"Number of CCS Chargers: 4
+Station open 24/7",,Sweden,Skåne,Skåne County,2019-04-18T06:45:03.095676Z,54,SRID=4326;POINT (12.95218 55.5562),Malmø,"E20, E22, E6",2018-10-29T09:30:01.119950Z,1,IONITY High Power Charging
+6,Zürich,13,47.449367,8.700137,"Number of CCS Chargers: 6
+Station open 24/7",,Switzerland,Zürich,Canton of Zürich,2018-12-13T07:30:02.023026Z,53,SRID=4326;POINT (8.700137 47.449367),Kemptthal,"A1, A4, E41, E60",2018-10-29T08:00:00.718007Z,1,IONITY High Power Charging
+4,Århus,17,56.06861,9.97816,"Number of CCS Chargers: 4
+Station open 24/7",,Denmark,Midtjylland,Central Denmark Region,2019-01-04T17:30:02.468340Z,52,SRID=4326;POINT (9.978160000000001 56.06861),Skanderborg,E45,2018-10-22T13:15:01.268920Z,1,IONITY High Power Charging
+4,,,62.07428,9.12514,"Number of CCS Chargers: 4
+Station open 24/7",,Norway,Oppland,Oppland,2019-01-22T07:45:02.420937Z,51,SRID=4326;POINT (9.12514 62.07428),Dombås,E6,2018-10-22T13:15:01.010824Z,1,IONITY High Power Charging
+4,Hamburg,26,53.694396,10.324738,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Schleswig-Holstein,Schleswig-Holstein,2018-12-14T12:30:02.055926Z,50,SRID=4326;POINT (10.324738 53.694396),Buddikate Ost,"A1, A21, E22",2018-10-22T07:00:00.874123Z,1,IONITY High Power Charging
+4,Stuttgart,57,49.205379,9.639696,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Baden-Württemberg,Baden-Württemberg,2018-12-04T15:00:01.609339Z,49,SRID=4326;POINT (9.639696000000001 49.205379),Hohenlohe Süd,"A6, E50",2018-10-22T07:00:00.748922Z,1,IONITY High Power Charging
+4,Bonn,19,50.647664,7.334521,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Nordrhein-Westfalen,North Rhine-Westphalia,2018-12-21T15:00:02.762354Z,48,SRID=4326;POINT (7.334521 50.647664),Bad Honnef,"A3, E35",2018-10-17T13:45:00.779463Z,1,IONITY High Power Charging
+4,Vaduz,13,47.011751,9.512371,"Number of CCS Chargers: 4
+Station open 24/7",,Switzerland,Graubünden,Graubünden,2018-11-29T08:00:02.172592Z,40,SRID=4326;POINT (9.512371 47.011751),Heidiland,"A13, A28, A3, E43",2018-10-16T15:45:00.995361Z,1,IONITY High Power Charging
+4,Östersund,28,63.31709,14.1692,"Number of CCS Chargers: 4
+Station open 24/7",,Sweden,Jämtland,Jämtland County,2019-02-01T11:00:02.243923Z,39,SRID=4326;POINT (14.1692 63.31709),Ytterån,E14,2018-10-16T15:15:00Z,1,IONITY High Power Charging
+4,Stuttgart,29,49.044276,9.261639,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Baden-Württemberg,Baden-Württemberg,2018-11-16T12:30:00Z,38,SRID=4326;POINT (9.261639000000001 49.044276),Wunnenstein West,E41,2018-10-15T09:30:00Z,1,IONITY High Power Charging
+4,Vaduz,41,47.129066,10.060559,"Number of CCS Chargers: 4
+Station open 24/7",,Austria,Vorarlberg,Vorarlberg,2018-12-05T08:45:02.525257Z,37,SRID=4326;POINT (10.060559 47.129066),Klösterle,"E60, S16",2018-10-11T11:00:01.006038Z,1,IONITY High Power Charging
+4,Aalborg,30,56.78302,9.69481,"Number of CCS Chargers: 4
+Station open 24/7",,Denmark,Nordjylland,North Denmark Region,2019-01-04T07:45:02.001480Z,20,SRID=4326;POINT (9.69481 56.78302),Nørager,E45,2018-10-08T12:00:00Z,1,IONITY High Power Charging
+4,Gießen,75,50.488351,9.708473,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Hessen,Hesse,2018-12-03T06:45:02.002704Z,34,SRID=4326;POINT (9.708473 50.488351),Eichenzell,"A66, A7, E45",2018-10-08T12:00:00Z,1,IONITY High Power Charging
+4,Stuttgart,57,49.207007,9.639273,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Baden-Württemberg,Baden-Württemberg,2018-12-12T07:45:02.496824Z,18,SRID=4326;POINT (9.639272999999999 49.207007),Hohenlohe Nord,"A6, E50",2018-10-08T12:00:00Z,1,IONITY High Power Charging
+4,Vaduz,30,47.140914,9.924473,"Number of CCS Chargers: 4
+Station open 24/7",,Austria,Vorarlberg,Vorarlberg,2018-12-05T08:45:02.833195Z,29,SRID=4326;POINT (9.924473000000001 47.140914),Innerbraz,"E60, S16",2018-10-04T12:00:00Z,1,IONITY High Power Charging
+4,Strasbourg,30,48.309517,7.788855,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Baden-Württemberg,Baden-Württemberg,2018-11-27T18:45:02.301725Z,25,SRID=4326;POINT (7.788855 48.309517),Mahlberg West,"A5, E35",2018-10-03T12:00:00Z,1,IONITY High Power Charging
+4,Stuttgart,29,49.045334,9.266223,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Baden-Württemberg,Baden-Württemberg,2018-10-26T12:30:00.957415Z,21,SRID=4326;POINT (9.266223 49.045334),Wunnenstein Ost,E41,2018-10-01T12:00:00Z,1,Wunnenstein Ost
+4,Liège,7,50.651848,5.473755,"Number of CCS Chargers: 4
+Station open 24/7",,Belgium,Liege,Liège,2019-01-17T08:15:02.740981Z,17,SRID=4326;POINT (5.473755 50.651848),Bierset,"A13, A15, A26, A3, E25, E313, E40, E42",2018-10-01T12:00:00Z,1,IONITY High Power Charging
+4,Gjøvik,96,60.70205,8.94337,"Number of CCS Chargers: 4
+Station open 24/7",,Norway,Buskerud,Buskerud,2018-12-17T19:45:03.182178Z,33,SRID=4326;POINT (8.94337 60.70205),Gol,,2018-10-01T12:00:00Z,1,IONITY High Power Charging
+4,Ulm,24,48.583937,10.175605,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Baden-Württemberg,Baden-Württemberg,2018-12-13T06:45:02.344215Z,24,SRID=4326;POINT (10.175605 48.583937),Lonetal West,"A7, E43",2018-09-28T12:00:00Z,1,IONITY High Power Charging
+4,Rosenheim,37,47.519215,12.065526,"Number of CCS Chargers: 4
+Station open 24/7",,Austria,Tirol,Tyrol,2018-11-13T11:30:01.582047Z,22,SRID=4326;POINT (12.065526 47.519215),Angath Nord,"178, E45, E60, E64",2018-09-28T12:00:00Z,1,IONITY High Power Charging
+4,Karlsruhe,21,49.16125,8.567226,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Baden-Württemberg,Baden-Württemberg,2018-11-09T15:45:01.401236Z,30,SRID=4326;POINT (8.567226 49.16125),Bruchsal West,"A5, E35",2018-09-19T12:00:00Z,1,IONITY High Power Charging
+4,Karlsruhe,21,49.162694,8.570788,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Baden-Württemberg,Baden-Württemberg,2018-11-16T15:00:01.666326Z,19,SRID=4326;POINT (8.570788 49.162694),Bruchsal Ost,"A5, E35",2018-09-19T12:00:00Z,1,IONITY High Power Charging
+8,Tønsberg,24,59.11234,10.11033,"Number of CCS Chargers: 8
+Station open 24/7",,Norway,Vestfold,Vestfold,2018-12-07T14:45:02.224006Z,12,SRID=4326;POINT (10.11033 59.11234),Ringdalskogen,E18,2018-09-19T12:00:00Z,1,IONITY High Power Charging
+4,Sandnes,72,58.40599,6.62316,"Number of CCS Chargers: 4
+Station open 24/7",,Norway,Rogaland,Rogaland,2018-12-19T12:15:02.051287Z,13,SRID=4326;POINT (6.62316 58.40599),Sira,E39,2018-09-18T12:00:00Z,1,IONITY High Power Charging
+4,Bern,8,46.990174,7.475976,"Number of CCS Chargers: 4
+Station open 24/7",,Switzerland,Bern,Canton of Bern,2018-12-21T16:15:02.735440Z,23,SRID=4326;POINT (7.475976 46.990174),Grauholz,"A1, A12, A6, E25, E27",2018-09-17T12:00:00Z,1,IONITY High Power Charging
+4,Ulm,24,48.584287,10.178996,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Baden-Württemberg,Baden-Württemberg,2018-12-14T07:00:02.716302Z,28,SRID=4326;POINT (10.178996 48.584287),Lonetal Ost,"A7, E43",2018-09-17T12:00:00Z,1,IONITY High Power Charging
+4,Graz,13,46.959244,15.382045,"Number of CCS Chargers: 4
+Station open 24/7",,Austria,Steiermark,Styria,2018-10-24T14:00:01.265945Z,32,SRID=4326;POINT (15.382045 46.959244),Kaiserwald,"A1, A2, A9, E57, E59, E66",2018-09-14T12:00:00Z,1,IONITY High Power Charging
+4,Versailles,55,48.467,1.579341,"Number of CCS Chargers: 4
+Station open 24/7",,France,Eure-et-Loir,Eure-et-Loir,2018-10-29T08:00:01Z,36,SRID=4326;POINT (1.579341 48.467),Chartres Bois Paris,"A11, E50",2018-09-10T12:00:00Z,1,IONITY High Power Charging
+4,Tours,24,47.16577,0.63161,"Number of CCS Chargers: 4
+Station open 24/7",,France,Indre-et-Loire,Indre-et-Loire,2018-12-07T17:45:03Z,31,SRID=4326;POINT (0.63161 47.16577),Fontaine Colette,"A10, E5",2018-09-10T12:00:00Z,1,IONITY High Power Charging
+4,Versailles,54,48.468541,1.580005,"Number of CCS Chargers: 4
+Station open 24/7",,France,Eure-et-Loir,Eure-et-Loir,2018-10-29T08:00:00Z,16,SRID=4326;POINT (1.580005 48.468541),Chartres Gasville,"A11, E50",2018-09-10T12:00:00Z,1,IONITY High Power Charging
+6,Ulm,35,48.605321,9.632807,"Number of CCS Chargers: 6
+Station open 24/7",,Germany,Baden-Württemberg,Baden-Württemberg,2018-10-03T12:00:00Z,15,SRID=4326;POINT (9.632807 48.605321),Gruibingen Süd,"A8, E52",2018-09-03T12:00:00Z,1,Gruibingen Süd
+4,Münster,41,52.326149,7.430067,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Niedersachsen,Lower Saxony,2018-10-26T15:00:01.547227Z,35,SRID=4326;POINT (7.430067 52.326149),Salzbergen,"A30, E30",2018-08-29T12:00:00Z,1,IONITY High Power Charging
+4,Hof,36,50.055972,11.609148,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Bayern,Bavaria,2018-10-12T15:00:00.997264Z,27,SRID=4326;POINT (11.609148 50.055972),Himmelkron,"A70, E48, E51",2018-08-20T12:00:00Z,1,IONITY High Power Charging
+4,Klagenfurt,64,46.919943,13.579276,"Number of CCS Chargers: 4
+Station open 24/7",,Austria,Kärnten,Carinthia,2018-10-03T12:00:00Z,6,SRID=4326;POINT (13.579276 46.919943),Eisentratten,"A10, E55, E66",2018-08-17T12:00:00Z,1,IONITY High Power Charging
+7,Kristiansand,19,58.23655,8.29948,"Number of CCS Chargers: 7
+Station open 24/7",,Norway,Aust-Agder,East Agder,2018-11-21T08:30:01.987678Z,26,SRID=4326;POINT (8.299480000000001 58.23655),Kjerlingland,E18,2018-08-10T12:00:00Z,1,IONITY High Power Charging
+4,Bregenz,18,47.366163,9.659167,"Number of CCS Chargers: 4
+Station open 24/7",,Austria,Vorarlberg,Vorarlberg,2018-09-24T12:00:00Z,7,SRID=4326;POINT (9.659167 47.366163),Hohenems,"A13, E43, E60",2018-08-10T12:00:00Z,1,IONITY High Power Charging
+4,Magdeburg,9,52.173933,11.495112,"Number of CCS Chargers: 4
+Station open 24/7",,Germany,Sachsen-Anhalt,Saxony-Anhalt,2018-10-10T09:15:00Z,14,SRID=4326;POINT (11.495112 52.173933),Hohenwarsleben,"A14, A2, E30, E49",2018-08-06T12:00:00Z,1,IONITY High Power Charging
+4,Salzburg,26,47.836599,13.395919,"Number of CCS Chargers: 4
+Station open 24/7",,Austria,Oberösterreich,Upper Austria,2018-08-09T12:00:00Z,5,SRID=4326;POINT (13.395919 47.836599),Mondsee,"E55, E60, E651",2018-07-14T12:00:00Z,1,IONITY High Power Charging
+4,Altdorf,3,46.846522,8.632302,"Number of CCS Chargers: 4
+Station open 24/7",,Switzerland,Uri,Uri,2018-07-19T12:00:00Z,9,SRID=4326;POINT (8.632301999999999 46.846522),Gotthard Süd,"A2, A4, E41",2018-07-02T12:00:00Z,1,IONITY High Power Charging
+4,Altdorf,3,46.847886,8.633197,"Number of CCS Chargers: 4
+Station open 24/7",,Switzerland,Uri,Uri,2018-07-19T12:00:00Z,8,SRID=4326;POINT (8.633196999999999 46.847886),Gotthard Nord,"A2, A4, E41",2018-07-02T12:00:00Z,1,IONITY High Power Charging
+6,Angers,3,47.50047,-0.49057,"Number of CCS Chargers: 6
+Station open 24/7",,France,Maine-et-Loire,Maine-et-Loire,2018-07-24T12:00:00Z,11,SRID=4326;POINT (-0.49057 47.50047),Portes d'Angers (Sud),"A11, A87, E501",2018-06-24T12:00:00Z,1,IONITY High Power Charging
+6,Tours,12,47.47574,0.77685,"Number of CCS Chargers: 6
+Station open 24/7",,France,Indre-et-Loire,Indre-et-Loire,2018-07-24T12:00:00Z,10,SRID=4326;POINT (0.77685 47.47574),Tours La Longue Vue,"A10, E5, E502, E60",2018-06-24T12:00:00Z,1,IONITY High Power Charging
+6,Luzern,7,47.113372,8.232328,"Number of CCS Chargers: 6
+Station open 24/7",,Switzerland,Lucerne,Canton of Lucerne,2018-05-30T12:00:00Z,3,SRID=4326;POINT (8.232328000000001 47.113372),Neuenkirch,"A14, E35",2018-04-30T12:00:00Z,1,IONITY High Power Charging
+6,Koblenz,28,50.441534,7.223985,"Number of CCS Chargers: 6
+Station open 24/7",,Germany,Rheinland-Pfalz,Rhineland-Palatinate,2018-05-24T12:00:00Z,2,SRID=4326;POINT (7.223985 50.441534),Brohltal West,"A61, E31",2018-04-23T12:00:00Z,1,IONITY High Power Charging
+6,Koblenz,28,50.440471,7.225629,"Number of CCS Chargers: 6
+Station open 24/7",,Germany,Rheinland-Pfalz,Rhineland-Palatinate,2018-04-17T12:00:00Z,1,SRID=4326;POINT (7.225629 50.440471),Brohltal Ost,"A61, E31",2018-03-27T12:00:00Z,1,IONITY High Power Charging
+6,Flensburg,31,55.065192,9.366167,"Number of CCS Chargers: 6
+Station open 24/7",,Denmark,Syddanmark,Region of Southern Denmark,2018-07-11T12:00:00Z,4,SRID=4326;POINT (9.366167000000001 55.065192),Aabenraa,E45,2017-12-20T12:00:00Z,1,IONITY High Power Charging
